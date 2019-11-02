@@ -9,6 +9,8 @@ FLAGS = flags.FLAGS
 flags.DEFINE_string('good_file', '/Users/JasminH/hacknlead2019/Data/ListofGoodsExcel.tsv',
                     '.tsv file to extract data from')
 flags.DEFINE_string('GSI_file', '/Users/JasminH/hacknlead2019/Data/GSI_data.csv', '.tsv file to extract data from')
+flags.DEFINE_string('slavery_file', '/Users/JasminH/hacknlead2019/Data/slavery_vulnerability_index.tsv',
+                    '.tsv file to extract data from')
 flags.DEFINE_string('prevention_file', '/Users/JasminH/hacknlead2019/Data/slavery_prevention_scores.tsv',
                     '.tsv file to extract data from')
 flags.DEFINE_list('column_names', 'good,country', 'List of columns to extract from TSV')
@@ -54,13 +56,21 @@ class MergeData:
                     continue
 
     def read_gsi(self, f, columns):
-        pass
-
+        with open(f) as csv_file:
+            rows = csv.DictReader(csv_file)
+            for row in rows:
+                print(row)
+                if row['country'] in self.countries:
+                    self.countries[row['prevalence_score']] = row['prevalence_score']
+                    self.countries[row['prevalence_score']] = row['prevalence_score']
+                else:
+                    continue
 
 def main(argv):
     merge_data = MergeData()
     merge_data.read_good_csv(FLAGS.good_file)
     merge_data.read_csv(FLAGS.slavery_file, FLAGS.column_names)
+    merge_data.read_gsi(FLAGS.GSI_file, FLAGS.column_names)
     # for k, v in merge_data.products.items():
     # print(k, v)
     print(merge_data.countries)
