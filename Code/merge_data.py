@@ -16,14 +16,7 @@ FLAGS = flags.FLAGS
 
 flags.DEFINE_string('good_file', None,
                     '.tsv file to extract data from')
-flags.DEFINE_string('GSI_file', 'None, '.tsv
-file
-to
-extract
-data
-from
-
-')
+flags.DEFINE_string('GSI_file', None, 'file to extract data from .tsv')
 flags.DEFINE_string('prevention_file', None,
                     '.tsv file to extract data from')
 flags.DEFINE_string('product_json', None,
