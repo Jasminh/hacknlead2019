@@ -59,7 +59,7 @@ class MergeData:
         with open(f) as csv_file:
             rows = csv.DictReader(csv_file)
             for row in rows:
-                # print(row)
+                print(row)
                 if row['country'] in self.countries:
                     self.countries[row['country']][row['prevalence_score']] = row['prevalence_score']
                     self.countries[row['country']][row['people_in_slavery']] = row['people_in_slavery']
