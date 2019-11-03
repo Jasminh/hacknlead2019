@@ -62,44 +62,44 @@ class MergeData:
             for row in rows:
                 # print(row)
                 if row['country'] in self.countries:
-                    self.countries[row['country']][row['prevalence_score']] = row['prevalence_score']
-                    self.countries[row['country']][row['people_in_slavery']] = row['people_in_slavery']
-                    self.countries[row['country']][row['vulnerability_score']] = row['vulnerability_score']
-                    self.countries[row['country']][row['support_survivors_percentage']] = row[
+                    self.countries[row['country']]['prevalence_score'] = row['prevalence_score']
+                    self.countries[row['country']]['people_in_slavery'] = row['people_in_slavery']
+                    self.countries[row['country']]['vulnerability_score'] = row['vulnerability_score']
+                    self.countries[row['country']]['support_survivors_percentage'] = row[
                         'support_survivors_percentage']
-                    self.countries[row['country']][row['criminal_justice_percentage']] = row[
+                    self.countries[row['country']]['criminal_justice_percentage'] = row[
                         'criminal_justice_percentage']
-                    self.countries[row['country']][row['coordination_percentage']] = row['coordination_percentage']
-                    self.countries[row['country']][row['address_risk_percentage']] = row['address_risk_percentage']
-                    self.countries[row['country']][row['supply_chains_percentage']] = row['supply_chains_percentage']
+                    self.countries[row['country']]['coordination_percentage'] = row['coordination_percentage']
+                    self.countries[row['country']]['address_risk_percentage'] = row['address_risk_percentage']
+                    self.countries[row['country']]['supply_chains_percentage'] = row['supply_chains_percentage']
                     self.countries[row['country']][row['TOTAL']] = row['TOTAL']
                 if row['country'] == 'Russian Federation':
-                    self.countries['Russia'][row['prevalence_score']] = row['prevalence_score']
-                    self.countries['Russia'][row['people_in_slavery']] = row['people_in_slavery']
-                    self.countries['Russia'][row['vulnerability_score']] = row['vulnerability_score']
-                    self.countries['Russia'][row['support_survivors_percentage']] = row[
+                    self.countries['Russia']['prevalence_score'] = row['prevalence_score']
+                    self.countries['Russia']['people_in_slavery'] = row['people_in_slavery']
+                    self.countries['Russia']['vulnerability_score'] = row['vulnerability_score']
+                    self.countries['Russia']['support_survivors_percentage'] = row[
                         'support_survivors_percentage']
-                    self.countries['Russia'][row['criminal_justice_percentage']] = row[
+                    self.countries['Russia']['criminal_justice_percentage'] = row[
                         'criminal_justice_percentage']
-                    self.countries['Russia'][row['coordination_percentage']] = row['coordination_percentage']
-                    self.countries['Russia'][row['address_risk_percentage']] = row['address_risk_percentage']
-                    self.countries['Russia'][row['supply_chains_percentage']] = row[
+                    self.countries['Russia']['coordination_percentage'] = row['coordination_percentage']
+                    self.countries['Russia']['address_risk_percentage'] = row['address_risk_percentage']
+                    self.countries['Russia']['supply_chains_percentage'] = row[
                         'supply_chains_percentage']
                 if ',' in row['country']:
                     country, _ = row['country'].split(',')
                     if country in self.countries:
-                        self.countries[country][row['prevalence_score']] = row['prevalence_score']
-                        self.countries[country][row['people_in_slavery']] = row['people_in_slavery']
-                        self.countries[country][row['vulnerability_score']] = row['vulnerability_score']
-                        self.countries[country][row['support_survivors_percentage']] = row[
+                        self.countries[country]['prevalence_score'] = row['prevalence_score']
+                        self.countries[country]['people_in_slavery'] = row['people_in_slavery']
+                        self.countries[country]['vulnerability_score'] = row['vulnerability_score']
+                        self.countries[country]['support_survivors_percentage'] = row[
                             'support_survivors_percentage']
-                        self.countries[country][row['criminal_justice_percentage']] = row[
+                        self.countries[country]['criminal_justice_percentage'] = row[
                             'criminal_justice_percentage']
-                        self.countries[country][row['coordination_percentage']] = row['coordination_percentage']
-                        self.countries[country][row['address_risk_percentage']] = row['address_risk_percentage']
-                        self.countries[country][row['supply_chains_percentage']] = row[
+                        self.countries[country]['coordination_percentage'] = row['coordination_percentage']
+                        self.countries[country]['address_risk_percentage'] = row['address_risk_percentage']
+                        self.countries[country]['supply_chains_percentage'] = row[
                             'supply_chains_percentage']
-                        self.countries[country][row['TOTAL']] = row['TOTAL']
+                        self.countries[country]['TOTAL'] = row['TOTAL']
 
                     else:
                         continue
