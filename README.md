@@ -4,7 +4,7 @@
 
 *It's all about making better decisions in life.*
 
-Imagine you want to know more about the products you're using or planing to buy.
+Imagine you want to know more about the products you're using or planing to buy, by having more transparency on product manifacture.
 
 What if the information you got would make you more aware and informed about modern slavery. 
 
@@ -16,9 +16,11 @@ Yours, The Good Explorers.
 
 ## 2. About our approach to the problem we're solving 
 
-a) Based on the data and API's we've got an access to (mainly howgood.com and listofgoods), we first analysed and map the data, mostly products, countries and slavery indexes. 
+a) Based on the data and API's we've got an access to (mainly howgood.com -> FoodData Central USA, listofgoods and the global slavery index), we first analysed and map the data, mostly products, countries and slavery indexes. 
 
-b) We then developed sentiments over time (child labor, forced labor, prevention efforts)
+b) We retrieved the data by using different number of attributes; then developed sentiments over time (child labor, forced labor, prevention efforts) using nltk package. 
+
+So far we've considered only the articles in English. 
 
 c) We've implemented the simple and intuitive website where the user can first search for a product and then based on the results scroll in the countries map to further explore and learn about the particular slavery index for that product, country and brand. 
 
