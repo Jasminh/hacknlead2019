@@ -10,7 +10,7 @@
     "coordination_percentage": "",
     "address_risk_percentage": "",
     "supply_chains_percentage": "",
-    "": ""
+    "TOTAL": ""
   },
   "Angola": {
     "c_f_labor": 2,
@@ -23,7 +23,7 @@
     "coordination_percentage": "43.8",
     "address_risk_percentage": "54.8",
     "supply_chains_percentage": "0.0",
-    "29.5": "29.5"
+    "TOTAL": "29.5"
   },
   "Argentina": {
     "c_f_labor": 12,
@@ -36,7 +36,7 @@
     "coordination_percentage": "62.5",
     "address_risk_percentage": "78.6",
     "supply_chains_percentage": "0.0",
-    "62.6": "62.6"
+    "TOTAL": "62.6"
   },
   "Azerbaijan": {
     "c_f_labor": 1,
@@ -49,7 +49,7 @@
     "coordination_percentage": "62.5",
     "address_risk_percentage": "59.5",
     "supply_chains_percentage": "0.0",
-    "48.2": "48.2"
+    "TOTAL": "48.2"
   },
   "Bangladesh": {
     "c_f_labor": 16,
@@ -62,7 +62,7 @@
     "coordination_percentage": "68.8",
     "address_risk_percentage": "42.9",
     "supply_chains_percentage": "0.0",
-    "44.4": "44.4"
+    "TOTAL": "44.4"
   },
   "Belize": {
     "c_f_labor": 3,
@@ -74,7 +74,7 @@
     "coordination_percentage": "",
     "address_risk_percentage": "",
     "supply_chains_percentage": "",
-    "": ""
+    "TOTAL": ""
   },
   "Benin": {
     "c_f_labor": 3,
@@ -87,7 +87,7 @@
     "coordination_percentage": "56.3",
     "address_risk_percentage": "52.4",
     "supply_chains_percentage": "0.0",
-    "37.7": "37.7"
+    "TOTAL": "37.7"
   },
   "Bolivia": {
     "c_f_labor": 13,
@@ -112,7 +112,7 @@
     "coordination_percentage": "87.5",
     "address_risk_percentage": "73.8",
     "supply_chains_percentage": "26.7",
-    "55.6": "55.6"
+    "TOTAL": "55.6"
   },
   "Burkina Faso": {
     "c_f_labor": 5,
@@ -124,7 +124,7 @@
     "coordination_percentage": "43.8",
     "address_risk_percentage": "42.9",
     "supply_chains_percentage": "0.0",
-    "35.7": "35.7"
+    "TOTAL": "35.7"
   },
   "Myanmar": {
     "c_f_labor": 23,
@@ -137,7 +137,7 @@
     "coordination_percentage": "43.8",
     "address_risk_percentage": "42.9",
     "supply_chains_percentage": "0.0",
-    "32.4": "32.4"
+    "TOTAL": "32.4"
   },
   "Cambodia": {
     "c_f_labor": 12,
@@ -150,7 +150,7 @@
     "coordination_percentage": "43.8",
     "address_risk_percentage": "33.3",
     "supply_chains_percentage": "0.0",
-    "37.6": "37.6"
+    "TOTAL": "37.6"
   },
   "Cameroon": {
     "c_f_labor": 1,
@@ -163,7 +163,7 @@
     "coordination_percentage": "18.8",
     "address_risk_percentage": "50.0",
     "supply_chains_percentage": "0.0",
-    "25.4": "25.4"
+    "TOTAL": "25.4"
   },
   "Central African Republic": {
     "c_f_labor": 1,
@@ -176,7 +176,7 @@
     "coordination_percentage": "12.5",
     "address_risk_percentage": "21.4",
     "supply_chains_percentage": "0.0",
-    "2.5": "2.5"
+    "TOTAL": "2.5"
   },
   "Chad": {
     "c_f_labor": 1,
@@ -189,7 +189,7 @@
     "coordination_percentage": "12.5",
     "address_risk_percentage": "40.5",
     "supply_chains_percentage": "0.0",
-    "16.7": "16.7"
+    "TOTAL": "16.7"
   },
   "China": {
     "c_f_labor": 17,
@@ -202,7 +202,7 @@
     "coordination_percentage": "43.8",
     "address_risk_percentage": "52.4",
     "supply_chains_percentage": "18.3",
-    "27.4": "27.4"
+    "TOTAL": "27.4"
   },
   "Colombia": {
     "c_f_labor": 9,
@@ -215,7 +215,7 @@
     "coordination_percentage": "62.5",
     "address_risk_percentage": "69.0",
     "supply_chains_percentage": "0.0",
-    "41.1": "41.1"
+    "TOTAL": "41.1"
   },
   "Costa Rica": {
     "c_f_labor": 2,
@@ -227,7 +227,7 @@
     "coordination_percentage": "62.5",
     "address_risk_percentage": "59.5",
     "supply_chains_percentage": "0.0",
-    "50.0": "50.0"
+    "TOTAL": "50.0"
   },
   "Cote d'Ivoire": {
     "c_f_labor": 4,
@@ -239,7 +239,7 @@
     "coordination_percentage": "43.8",
     "address_risk_percentage": "66.7",
     "supply_chains_percentage": "8.3",
-    "42.4": "42.4"
+    "TOTAL": "42.4"
   },
   "Congo": {
     "c_f_labor": 11,
@@ -252,8 +252,7 @@
     "coordination_percentage": "25.0",
     "address_risk_percentage": "42.9",
     "supply_chains_percentage": "0.0",
-    "TOTAL": "18.9",
-    "14.8": "14.8"
+    "TOTAL": "14.8"
   },
   "Dominican Republic": {
     "c_f_labor": 6,
@@ -265,7 +264,7 @@
     "coordination_percentage": "37.5",
     "address_risk_percentage": "69.0",
     "supply_chains_percentage": "0.0",
-    "58.0": "58.0"
+    "TOTAL": "58.0"
   },
   "Ecuador": {
     "c_f_labor": 4,
@@ -278,7 +277,7 @@
     "coordination_percentage": "37.5",
     "address_risk_percentage": "52.4",
     "supply_chains_percentage": "0.0",
-    "46.4": "46.4"
+    "TOTAL": "46.4"
   },
   "Egypt": {
     "c_f_labor": 3,
@@ -291,7 +290,7 @@
     "coordination_percentage": "62.5",
     "address_risk_percentage": "64.3",
     "supply_chains_percentage": "0.0",
-    "40.1": "40.1"
+    "TOTAL": "40.1"
   },
   "El Salvador": {
     "c_f_labor": 7,
@@ -303,10 +302,20 @@
     "coordination_percentage": "43.8",
     "address_risk_percentage": "64.3",
     "supply_chains_percentage": "0.0",
-    "37.4": "37.4"
+    "TOTAL": "37.4"
   },
-  "Eswatini": {
-    "c_f_labor": 1
+  "Swaziland": {
+    "c_f_labor": 1,
+    "vulnerability_index": "64.8",
+    "prevalence_score": "8.8",
+    "people_in_slavery": "12'000",
+    "vulnerability_score": "64.8",
+    "support_survivors_percentage": "36.3",
+    "criminal_justice_percentage": "18.3",
+    "coordination_percentage": "37.5",
+    "address_risk_percentage": "47.6",
+    "supply_chains_percentage": "0.0",
+    "TOTAL": "29.3"
   },
   "Ethiopia": {
     "c_f_labor": 4,
@@ -319,7 +328,7 @@
     "coordination_percentage": "56.3",
     "address_risk_percentage": "47.6",
     "supply_chains_percentage": "0.0",
-    "36.3": "36.3"
+    "TOTAL": "36.3"
   },
   "Ghana": {
     "c_f_labor": 6,
@@ -332,7 +341,7 @@
     "coordination_percentage": "37.5",
     "address_risk_percentage": "40.5",
     "supply_chains_percentage": "8.3",
-    "27.6": "27.6"
+    "TOTAL": "27.6"
   },
   "Guatemala": {
     "c_f_labor": 6,
@@ -345,7 +354,7 @@
     "coordination_percentage": "62.5",
     "address_risk_percentage": "69.0",
     "supply_chains_percentage": "0.0",
-    "45.2": "45.2"
+    "TOTAL": "45.2"
   },
   "Guinea": {
     "c_f_labor": 5,
@@ -358,7 +367,7 @@
     "coordination_percentage": "37.5",
     "address_risk_percentage": "50.0",
     "supply_chains_percentage": "0.0",
-    "19.3": "19.3"
+    "TOTAL": "19.3"
   },
   "Honduras": {
     "c_f_labor": 3,
@@ -371,7 +380,7 @@
     "coordination_percentage": "62.5",
     "address_risk_percentage": "54.8",
     "supply_chains_percentage": "0.0",
-    "37.0": "37.0"
+    "TOTAL": "37.0"
   },
   "India": {
     "c_f_labor": 31,
@@ -384,7 +393,7 @@
     "coordination_percentage": "56.3",
     "address_risk_percentage": "45.2",
     "supply_chains_percentage": "0.0",
-    "45.7": "45.7"
+    "TOTAL": "45.7"
   },
   "Indonesia": {
     "c_f_labor": 8,
@@ -397,7 +406,7 @@
     "coordination_percentage": "50.0",
     "address_risk_percentage": "61.9",
     "supply_chains_percentage": "0.0",
-    "50.8": "50.8"
+    "TOTAL": "50.8"
   },
   "Iran": {
     "c_f_labor": 2,
@@ -422,7 +431,7 @@
     "coordination_percentage": "37.5",
     "address_risk_percentage": "26.2",
     "supply_chains_percentage": "0.0",
-    "32.8": "32.8"
+    "TOTAL": "32.8"
   },
   "Kenya": {
     "c_f_labor": 9,
@@ -435,10 +444,20 @@
     "coordination_percentage": "37.5",
     "address_risk_percentage": "59.5",
     "supply_chains_percentage": "0.0",
-    "36.5": "36.5"
+    "TOTAL": "36.5"
   },
-  "Kyrgyz Republic": {
-    "c_f_labor": 2
+  "Kyrgyzstan": {
+    "c_f_labor": 2,
+    "vulnerability_index": "42.8",
+    "prevalence_score": "4.1",
+    "people_in_slavery": "24'000",
+    "vulnerability_score": "42.8",
+    "support_survivors_percentage": "33.0",
+    "criminal_justice_percentage": "48.3",
+    "coordination_percentage": "56.3",
+    "address_risk_percentage": "61.9",
+    "supply_chains_percentage": "0.0",
+    "TOTAL": "40.9"
   },
   "Lebanon": {
     "c_f_labor": 2,
@@ -451,7 +470,7 @@
     "coordination_percentage": "31.3",
     "address_risk_percentage": "38.1",
     "supply_chains_percentage": "0.0",
-    "31.3": "31.3"
+    "TOTAL": "31.3"
   },
   "Lesotho": {
     "c_f_labor": 1,
@@ -464,7 +483,7 @@
     "coordination_percentage": "56.3",
     "address_risk_percentage": "42.9",
     "supply_chains_percentage": "0.0",
-    "38.3": "38.3"
+    "TOTAL": "38.3"
   },
   "Liberia": {
     "c_f_labor": 2,
@@ -477,7 +496,7 @@
     "coordination_percentage": "31.3",
     "address_risk_percentage": "50.0",
     "supply_chains_percentage": "0.0",
-    "31.7": "31.7"
+    "TOTAL": "31.7"
   },
   "Madagascar": {
     "c_f_labor": 3,
@@ -490,7 +509,7 @@
     "coordination_percentage": "18.8",
     "address_risk_percentage": "50.0",
     "supply_chains_percentage": "0.0",
-    "31.8": "31.8"
+    "TOTAL": "31.8"
   },
   "Malawi": {
     "c_f_labor": 3,
@@ -503,7 +522,7 @@
     "coordination_percentage": "43.8",
     "address_risk_percentage": "33.3",
     "supply_chains_percentage": "0.0",
-    "26.8": "26.8"
+    "TOTAL": "26.8"
   },
   "Malaysia": {
     "c_f_labor": 4,
@@ -516,7 +535,7 @@
     "coordination_percentage": "56.3",
     "address_risk_percentage": "38.1",
     "supply_chains_percentage": "0.0",
-    "38.4": "38.4"
+    "TOTAL": "38.4"
   },
   "Mali": {
     "c_f_labor": 4,
@@ -529,7 +548,7 @@
     "coordination_percentage": "50.0",
     "address_risk_percentage": "28.6",
     "supply_chains_percentage": "0.0",
-    "30.8": "30.8"
+    "TOTAL": "30.8"
   },
   "Mauritania": {
     "c_f_labor": 2,
@@ -542,7 +561,7 @@
     "coordination_percentage": "18.8",
     "address_risk_percentage": "35.7",
     "supply_chains_percentage": "0.0",
-    "15.5": "15.5"
+    "TOTAL": "15.5"
   },
   "Mexico": {
     "c_f_labor": 14,
@@ -555,7 +574,7 @@
     "coordination_percentage": "56.3",
     "address_risk_percentage": "69.0",
     "supply_chains_percentage": "0.0",
-    "52.4": "52.4"
+    "TOTAL": "52.4"
   },
   "Mongolia": {
     "c_f_labor": 3,
@@ -568,7 +587,7 @@
     "coordination_percentage": "31.3",
     "address_risk_percentage": "54.8",
     "supply_chains_percentage": "0.0",
-    "30.7": "30.7"
+    "TOTAL": "30.7"
   },
   "Mozambique": {
     "c_f_labor": 1,
@@ -581,7 +600,7 @@
     "coordination_percentage": "31.3",
     "address_risk_percentage": "42.9",
     "supply_chains_percentage": "0.0",
-    "40.7": "40.7"
+    "TOTAL": "40.7"
   },
   "Namibia": {
     "c_f_labor": 1,
@@ -594,7 +613,7 @@
     "coordination_percentage": "18.8",
     "address_risk_percentage": "54.8",
     "supply_chains_percentage": "0.0",
-    "33.3": "33.3"
+    "TOTAL": "33.3"
   },
   "Nepal": {
     "c_f_labor": 8,
@@ -607,7 +626,7 @@
     "coordination_percentage": "50.0",
     "address_risk_percentage": "59.5",
     "supply_chains_percentage": "0.0",
-    "38.7": "38.7"
+    "TOTAL": "38.7"
   },
   "Nicaragua": {
     "c_f_labor": 7,
@@ -620,7 +639,7 @@
     "coordination_percentage": "25.0",
     "address_risk_percentage": "66.7",
     "supply_chains_percentage": "0.0",
-    "46.3": "46.3"
+    "TOTAL": "46.3"
   },
   "Niger": {
     "c_f_labor": 5,
@@ -633,7 +652,7 @@
     "coordination_percentage": "25.0",
     "address_risk_percentage": "35.7",
     "supply_chains_percentage": "0.0",
-    "25.9": "25.9"
+    "TOTAL": "25.9"
   },
   "Nigeria": {
     "c_f_labor": 9,
@@ -646,7 +665,7 @@
     "coordination_percentage": "50.0",
     "address_risk_percentage": "47.6",
     "supply_chains_percentage": "0.0",
-    "45.8": "45.8"
+    "TOTAL": "45.8"
   },
   "North Korea": {
     "c_f_labor": 7,
@@ -658,7 +677,7 @@
     "coordination_percentage": "12.5",
     "address_risk_percentage": "4.8",
     "supply_chains_percentage": "0.0",
-    "-5.6": "-5.6"
+    "TOTAL": "-5.6"
   },
   "Pakistan": {
     "c_f_labor": 12,
@@ -671,7 +690,7 @@
     "coordination_percentage": "12.5",
     "address_risk_percentage": "40.5",
     "supply_chains_percentage": "0.0",
-    "18.6": "18.6"
+    "TOTAL": "18.6"
   },
   "Panama": {
     "c_f_labor": 2,
@@ -684,7 +703,7 @@
     "coordination_percentage": "31.3",
     "address_risk_percentage": "78.6",
     "supply_chains_percentage": "0.0",
-    "43.9": "43.9"
+    "TOTAL": "43.9"
   },
   "Paraguay": {
     "c_f_labor": 25,
@@ -697,7 +716,7 @@
     "coordination_percentage": "37.5",
     "address_risk_percentage": "71.4",
     "supply_chains_percentage": "10.0",
-    "40.9": "40.9"
+    "TOTAL": "40.9"
   },
   "Peru": {
     "c_f_labor": 8,
@@ -710,7 +729,7 @@
     "coordination_percentage": "62.5",
     "address_risk_percentage": "54.8",
     "supply_chains_percentage": "0.0",
-    "52.5": "52.5"
+    "TOTAL": "52.5"
   },
   "Philippines": {
     "c_f_labor": 13,
@@ -723,7 +742,7 @@
     "coordination_percentage": "50.0",
     "address_risk_percentage": "69.0",
     "supply_chains_percentage": "0.0",
-    "55.8": "55.8"
+    "TOTAL": "55.8"
   },
   "Russia": {
     "c_f_labor": 4,
@@ -735,7 +754,8 @@
     "criminal_justice_percentage": "32.2",
     "coordination_percentage": "37.5",
     "address_risk_percentage": "40.5",
-    "supply_chains_percentage": "0.0"
+    "supply_chains_percentage": "0.0",
+    "TOTAL": "20.7"
   },
   "Rwanda": {
     "c_f_labor": 1,
@@ -748,7 +768,7 @@
     "coordination_percentage": "43.8",
     "address_risk_percentage": "54.8",
     "supply_chains_percentage": "0.0",
-    "33.6": "33.6"
+    "TOTAL": "33.6"
   },
   "Senegal": {
     "c_f_labor": 1,
@@ -761,7 +781,7 @@
     "coordination_percentage": "56.3",
     "address_risk_percentage": "54.8",
     "supply_chains_percentage": "0.0",
-    "47.1": "47.1"
+    "TOTAL": "47.1"
   },
   "Sierra Leone": {
     "c_f_labor": 6,
@@ -773,7 +793,7 @@
     "coordination_percentage": "50.0",
     "address_risk_percentage": "54.8",
     "supply_chains_percentage": "0.0",
-    "46.2": "46.2"
+    "TOTAL": "46.2"
   },
   "South Sudan": {
     "c_f_labor": 2,
@@ -786,7 +806,7 @@
     "coordination_percentage": "",
     "address_risk_percentage": "",
     "supply_chains_percentage": "",
-    "": ""
+    "TOTAL": ""
   },
   "Sudan": {
     "c_f_labor": 1,
@@ -799,7 +819,7 @@
     "coordination_percentage": "25.0",
     "address_risk_percentage": "33.3",
     "supply_chains_percentage": "0.0",
-    "14.9": "14.9"
+    "TOTAL": "14.9"
   },
   "Suriname": {
     "c_f_labor": 1,
@@ -812,7 +832,7 @@
     "coordination_percentage": "31.3",
     "address_risk_percentage": "54.8",
     "supply_chains_percentage": "0.0",
-    "27.1": "27.1"
+    "TOTAL": "27.1"
   },
   "Tajikistan": {
     "c_f_labor": 2,
@@ -825,7 +845,7 @@
     "coordination_percentage": "43.8",
     "address_risk_percentage": "40.5",
     "supply_chains_percentage": "0.0",
-    "33.0": "33.0"
+    "TOTAL": "33.0"
   },
   "Tanzania": {
     "c_f_labor": 8,
@@ -850,7 +870,7 @@
     "coordination_percentage": "56.3",
     "address_risk_percentage": "73.8",
     "supply_chains_percentage": "0.0",
-    "48.9": "48.9"
+    "TOTAL": "48.9"
   },
   "Turkey": {
     "c_f_labor": 10,
@@ -863,7 +883,7 @@
     "coordination_percentage": "37.5",
     "address_risk_percentage": "33.3",
     "supply_chains_percentage": "0.0",
-    "47.4": "47.4"
+    "TOTAL": "47.4"
   },
   "Turkmenistan": {
     "c_f_labor": 2,
@@ -876,7 +896,7 @@
     "coordination_percentage": "31.3",
     "address_risk_percentage": "61.9",
     "supply_chains_percentage": "0.0",
-    "27.1": "27.1"
+    "TOTAL": "27.1"
   },
   "Uganda": {
     "c_f_labor": 13,
@@ -889,7 +909,7 @@
     "coordination_percentage": "37.5",
     "address_risk_percentage": "54.8",
     "supply_chains_percentage": "0.0",
-    "42.0": "42.0"
+    "TOTAL": "42.0"
   },
   "Ukraine": {
     "c_f_labor": 3,
@@ -902,7 +922,7 @@
     "coordination_percentage": "62.5",
     "address_risk_percentage": "66.7",
     "supply_chains_percentage": "0.0",
-    "53.0": "53.0"
+    "TOTAL": "53.0"
   },
   "Uzbekistan": {
     "c_f_labor": 2,
@@ -915,7 +935,7 @@
     "coordination_percentage": "31.3",
     "address_risk_percentage": "64.3",
     "supply_chains_percentage": "0.0",
-    "30.4": "30.4"
+    "TOTAL": "30.4"
   },
   "Vietnam": {
     "c_f_labor": 17,
@@ -928,7 +948,7 @@
     "coordination_percentage": "62.5",
     "address_risk_percentage": "66.7",
     "supply_chains_percentage": "0.0",
-    "48.1": "48.1"
+    "TOTAL": "48.1"
   },
   "Yemen": {
     "c_f_labor": 1,
@@ -941,7 +961,7 @@
     "coordination_percentage": "",
     "address_risk_percentage": "",
     "supply_chains_percentage": "",
-    "": ""
+    "TOTAL": ""
   },
   "Zambia": {
     "c_f_labor": 5,
@@ -954,6 +974,6 @@
     "coordination_percentage": "25.0",
     "address_risk_percentage": "40.5",
     "supply_chains_percentage": "0.0",
-    "31.8": "31.8"
+    "TOTAL": "31.8"
   }
 }
