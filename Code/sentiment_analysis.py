@@ -7,26 +7,32 @@ import nltk
 
 FLAGS = flags.FLAGS
 
-flags.DEFINE_string('text_file', '/Users/JasminH/hacknlead2019/Data/TR_API_results.tsv',
+flags.DEFINE_string('text_file', '/Users/JasminH/hacknlead2019/Data/TR_API_files/TR_API_results.tsv',
                     '.tsv file to extract data from')
 
 
 def get_news(f, countries):
     with open(f) as texts:
         rows = csv.DictReader(texts, delimiter='\t')
-        print(countries)
+        # print(countries)
         for row in rows:
             row = sentiment_analyis(row)
-            crs = row['countries_long'].split(',')
+            crs = row['countries_long_newversion'].split(',')
             for country in crs:
-                print(country)
+                #print(country)
                 try:
                     if 'articles' in countries[country]:
-                        pass
+                        countries[country]['articles'][row['versionedguid']] = {'text': row['parsed_text'],
+                                                                                'polarity': row['polarity'],
+                                                                                'polarity_sentence_scores': row[
+                                                                                    'polarity_sentence_scores']}
                     else:
-                        countries[country]['articles'] = {'guid': row['versionedguid']}
+                        countries[country]['articles'] = {
+                            row['versionedguid']: {'text': row['parsed_text'], 'polarity': row['polarity'],
+                                                   'polarity_sentence_scores': row['polarity_sentence_scores']}}
                 except:
-                    print('****OLD VERSION*****')
+                    print('****OLD VERSION*****', country)
+        return countries
 
 
 def sentiment_analyis(row):
@@ -44,7 +50,8 @@ def sentiment_analyis(row):
     # print(polarity)
 
     row['polarity'] = polarity
-    print(row)
+    row['polarity_sentence_scores'] = scores
+    #print(row)
 
     return row
 
@@ -57,7 +64,9 @@ def get_countries(f):
 
 def main(argv):
     countries = get_countries('/Users/JasminH/hacknlead2019/Data/countries.json')
-    get_news(FLAGS.text_file, countries)
+    updated_countries = get_news(FLAGS.text_file, countries)
+    with open('/Users/JasminH/hacknlead2019/Data/countries_with_articles.json', 'w') as json_f:
+        json.dump(updated_countries, json_f)
 
 
 if __name__ == '__main__':
