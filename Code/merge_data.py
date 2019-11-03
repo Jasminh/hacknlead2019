@@ -1,3 +1,11 @@
+"""
+Module for merging different information sources about human trafficking into 2 json files
+
+Author: Jasmin Heierli
+
+Project: hacknlead2019 / The Good Explorers
+"""
+
 from absl import app
 from absl import flags
 import csv
@@ -6,14 +14,14 @@ import json
 
 FLAGS = flags.FLAGS
 
-flags.DEFINE_string('good_file', '/Users/JasminH/hacknlead2019/Data/ListofGoodsExcel.tsv',
+flags.DEFINE_string('good_file', None,
                     '.tsv file to extract data from')
-flags.DEFINE_string('GSI_file', '/Users/JasminH/hacknlead2019/Data/GSI_data.csv', '.tsv file to extract data from')
-flags.DEFINE_string('prevention_file', '/Users/JasminH/hacknlead2019/Data/slavery_prevention_scores.csv',
+flags.DEFINE_string('GSI_file', None, 'file to extract data from .tsv')
+flags.DEFINE_string('prevention_file', None,
                     '.tsv file to extract data from')
-flags.DEFINE_string('product_json', '/Users/JasminH/hacknlead2019/Data/products.json',
+flags.DEFINE_string('product_json', None,
                     '.json file to convolute the data in')
-flags.DEFINE_string('country_json', '/Users/JasminH/hacknlead2019/Data/countries.json',
+flags.DEFINE_string('country_json', None,
                     '.json file to convolute the data in')
 
 

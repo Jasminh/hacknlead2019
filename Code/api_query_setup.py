@@ -4,6 +4,8 @@
 Module for setting up a query to be used with the Thompson Reuters API
 
 Author: Tilia Ellendorff
+
+Project: hacknlead2019 / The Good Explorers
 """
 
 from datetime import datetime, timedelta
