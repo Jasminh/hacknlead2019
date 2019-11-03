@@ -1,3 +1,11 @@
+"""
+Module for merging different information sources about human trafficking into 2 json files
+
+Author: Jasmin Heierli
+
+Project: hacknlead2019 / The Good Explorers
+"""
+
 from absl import app
 from absl import flags
 import csv

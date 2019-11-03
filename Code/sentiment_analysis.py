@@ -1,3 +1,12 @@
+"""
+Module add polarity scores to news articles and add them to an existing json.
+
+Author: Jasmin Heierli
+
+Project: hacknlead2019 / The Good Explorers
+"""
+
+
 import csv
 import json
 from absl import app
