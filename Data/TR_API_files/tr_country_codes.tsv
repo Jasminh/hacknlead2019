@@ -1,0 +1,298 @@
+country_code	country_name	country_name_long	area
+AO	Angola	Republic of Angola	AFRICA
+BF	Burkina Faso		AFRICA
+BI	Burundi	Republic of Burundi	AFRICA
+BJ	Benin	Republic of Benin	AFRICA
+BW	Botswana	Republic of Botswana	AFRICA
+CD	Congo (DRC)	Democratic Republic of the Congo	AFRICA
+CF	Central African Republic		AFRICA
+CG	Congo (RC)	Republic of the Congo	AFRICA
+CI	Ivory Coast	Republic of Côte d'Ivoire	AFRICA
+CM	Cameroon	Republic of Cameroon	AFRICA
+CV	Cape Verde	Republic of Cabo Verde	AFRICA
+DJ	Djibouti	Republic of Djibouti	AFRICA
+DZ	Algeria	People's Democratic Republic of Algeria	AFRICA
+EG	Egypt	Arab Republic of Egypt	AFRICA
+EH	Western Sahara		AFRICA
+ER	Eritrea	State of Eritrea	AFRICA
+ET	Ethiopia	Federal Democratic Republic of Ethiopia	AFRICA
+GA	Gabon	Gabonese Republic	AFRICA
+GH	Ghana	Republic of Ghana	AFRICA
+GI	Gibraltar		AFRICA
+GM	Gambia	Republic of The Gambia	AFRICA
+GN	Guinea	Republic of Guinea	AFRICA
+GQ	Equatorial Guinea	Republic of Equatorial Guinea	AFRICA
+GY	Guyana	Co-operative Republic of Guyana	AFRICA
+KE	Kenya	Republic of Kenya	AFRICA
+KM	Comoros	Union of the Comoros	AFRICA
+LR	Liberia	Republic of Liberia	AFRICA
+LS	Lesotho	Kingdom of Lesotho	AFRICA
+LY	Libya		AFRICA
+MA	Morocco	Kingdom of Morocco	AFRICA
+MG	Madagascar	Republic of Madagascar	AFRICA
+ML	Mali	Republic of Mali	AFRICA
+MR	Mauritania	Islamic Republic of Mauritania	AFRICA
+MU	Mauritius	Republic of Mauritius	AFRICA
+MW	Malawi	Republic of Malawi	AFRICA
+MZ	Mozambique	Republic of Mozambique	AFRICA
+NA	Namibia	Republic of Namibia	AFRICA
+NE	Niger	Republic of Niger	AFRICA
+NG	Nigeria	Federal Republic of Nigeria	AFRICA
+RE	Réunion	Department of Reunion	AFRICA
+RW	Rwanda	Republic of Rwanda	AFRICA
+SC	Seychelles	Republic of Seychelles	AFRICA
+SD	Sudan	Republic of the Sudan	AFRICA
+SH	Saint Helena, Ascension and Tristan da Cunha		AFRICA
+SL	Sierra Leone	Republic of Sierra Leone	AFRICA
+SN	Senegal	Republic of Senegal	AFRICA
+SO	Somalia	Federal Republic of Somalia	AFRICA
+SS	South Sudan		AFRICA
+SZ	Swaziland	Kingdom of Swaziland	AFRICA
+TD	Chad	Republic of Chad	AFRICA
+TF	French Southern Territories	Territory of the French Southern and Antarctic Lands	AFRICA
+TG	Togo	Togolese Republic	AFRICA
+TN	Tunisia	Tunisian Republic	AFRICA
+TO	Tonga	Kingdom of Tonga	AFRICA
+TZ	Tanzania	United Republic of Tanzania	AFRICA
+UG	Uganda	Republic of Uganda	AFRICA
+ZA	South Africa	Republic of South Africa	AFRICA
+ZM	Zambia	Republic of Zambia	AFRICA
+ZW	Zimbabwe	Republic of Zimbabwe	AFRICA
+AF	Afghanistan	Islamic Republic of Afghanistan	ASIA
+BD	Bangladesh	People's Republic of Bangladesh	ASIA
+BN	Brunei	Negara Brunei Darussalam	ASIA
+BT	Bhutan	Kingdom of Bhutan	ASIA
+CN	China (PRC)	People's Republic of China	ASIA
+HK	Hong Kong	Hong Kong Special Administrative Region	ASIA
+ID	Indonesia	Republic of Indonesia	ASIA
+IN	India	Republic of India	ASIA
+JP	Japan		ASIA
+KG	Kyrgyzstan	Kyrgyz Republic	ASIA
+KH	Cambodia	Kingdom of Cambodia	ASIA
+KP	North Korea	Democratic People's Republic of Korea	ASIA
+KR	South Korea	Republic of Korea	ASIA
+KZ	Kazakhstan	Republic of Kazakhstan	ASIA
+LA	Laos	Lao People's Democratic Republic	ASIA
+LK	Sri Lanka	Democratic Socialist Republic of Sri Lanka	ASIA
+MM	Myanmar	Republic of the Union of Myanmar	ASIA
+MN	Mongolia		ASIA
+MO	Macau	Macau Special Administrative Region	ASIA
+MV	Maldives	Republic of Maldives	ASIA
+MY	Malaysia		ASIA
+NP	Nepal	Federal Democratic Republic of Nepal	ASIA
+PH	Philippines	Republic of the Philippines	ASIA
+PK	Pakistan	Islamic Republic of Pakistan	ASIA
+SG	Singapore	Republic of Singapore	ASIA
+TH	Thailand	Kingdom of Thailand	ASIA
+TJ	Tajikistan	Republic of Tajikistan	ASIA
+TL	East Timor / Timor-Leste	Democratic Republic of Timor-Leste	ASIA
+TM	Turkmenistan		ASIA
+TW	Taiwan		ASIA
+UZ	Uzbekistan	Republic of Uzbekistan	ASIA
+VN	Vietnam	Socialist Republic of Vietnam	ASIA
+AG	Antigua and Barbuda		CENTRAL AMERICA
+BZ	Belize		CENTRAL AMERICA
+CR	Costa Rica	Republic of Costa Rica	CENTRAL AMERICA
+HN	Honduras	Republic of Honduras	CENTRAL AMERICA
+HT	Haiti	Republic of Haiti	CENTRAL AMERICA
+NI	Nicaragua	Republic of Nicaragua	CENTRAL AMERICA
+PA	Panama	Republic of Panama	CENTRAL AMERICA
+SV	El Salvador	Republic of El Salvador	CENTRAL AMERICA
+AD	Andorra	Principality of Andorra	EUROPE
+AL	Albania	Republic of Albania	EUROPE
+AM	Armenia	Republic of Armenia	EUROPE
+AT	Austria	Republic of Austria	EUROPE
+AZ	Azerbaijan	Republic of Azerbaijan	EUROPE
+BA	Bosnia and Herzegovina		EUROPE
+BE	Belgium	Kingdom of Belgium	EUROPE
+BG	Bulgaria	Republic of Bulgaria	EUROPE
+BY	Belarus	Republic of Belarus	EUROPE
+CH	Switzerland	Swiss Confederation	EUROPE
+CY	Cyprus	Republic of Cyprus	EUROPE
+CZ	Czech Republic		EUROPE
+DE	Germany	Federal Republic of Germany	EUROPE
+DK	Denmark	Kingdom of Denmark	EUROPE
+EE	Estonia	Republic of Estonia	EUROPE
+ES	Spain	Kingdom of Spain	EUROPE
+FI	Finland	Republic of Finland	EUROPE
+FR	France	French Republic	EUROPE
+GB	United Kingdom	United Kingdom of Great Britain and Northern Ireland	EUROPE
+GE	Georgia		EUROPE
+GG	Guernsey	Bailiwick of Guernsey	EUROPE
+GL	Greenland		EUROPE
+GR	Greece	Hellenic Republic	EUROPE
+HR	Croatia	Republic of Croatia	EUROPE
+HU	Hungary		EUROPE
+IE	Ireland	Republic of Ireland	EUROPE
+IM	Isle of Man		EUROPE
+IS	Iceland	Republic of Iceland	EUROPE
+IT	Italy	Italian Republic	EUROPE
+JE	Jersey	Bailiwick of Jersey	EUROPE
+KO	Kosovo	Republic of Kosovo	EUROPE
+LI	Liechtenstein	Principality of Liechtenstein	EUROPE
+LT	Lithuania	Republic of Lithuania	EUROPE
+LU	Luxembourg	Grand Duchy of Luxembourg	EUROPE
+LV	Latvia	Republic of Latvia	EUROPE
+MC	Monaco	Principality of Monaco	EUROPE
+MD	Moldova	Republic of Moldova	EUROPE
+ME	Montenegro		EUROPE
+MK	Macedonia (the former Yugoslav Republic of)	Former Yugoslav Republic of Macedonia	EUROPE
+MT	Malta	Republic of Malta	EUROPE
+NL	Netherlands	Kingdom of the Netherlands	EUROPE
+NO	Norway	Kingdom of Norway	EUROPE
+PL	Poland	Republic of Poland	EUROPE
+PT	Portugal	Portuguese Republic	EUROPE
+RO	Romania		EUROPE
+RU	Russia	Russian Federation	EUROPE
+SE	Sweden	Kingdom of Sweden	EUROPE
+SK	Slovakia	Slovak Republic	EUROPE
+SM	San Marino	Republic of San Marino	EUROPE
+SQ	Slovenia	Republic of Slovenia	EUROPE
+TR	Turkey	Republic of Turkey	EUROPE
+UA	Ukraine		EUROPE
+VA	Vatican City	Holy See (Vatican City)	EUROPE
+GBE	England		EUROPE
+GBS	Scotland		EUROPE
+GBW	Wales		EUROPE
+SRB	Serbia	Republic of Serbia	EUROPE
+GBNI	Northern Ireland		EUROPE
+AE	United Arab Emirates		MIDDLE EAST
+BH	Bahrain	Kingdom of Bahrain	MIDDLE EAST
+IL	Israel	State of Israel	MIDDLE EAST
+IQ	Iraq	Republic of Iraq	MIDDLE EAST
+IR	Iran	Islamic Republic of Iran	MIDDLE EAST
+JO	Jordan	Hashemite Kingdom of Jordan	MIDDLE EAST
+KW	Kuwait	State of Kuwait	MIDDLE EAST
+LB	Lebanon	Lebanese Republic	MIDDLE EAST
+OM	Oman	Sultanate of Oman	MIDDLE EAST
+PS	Palestinian Territories		MIDDLE EAST
+QA	Qatar	State of Qatar	MIDDLE EAST
+SA	Saudi Arabia	Kingdom of Saudi Arabia	MIDDLE EAST
+SY	Syria	Syrian Arab Republic	MIDDLE EAST
+YE	Yemen	Republic of Yemen	MIDDLE EAST
+AW	Aruba		NORTH AMERICA
+BM	Bermuda		NORTH AMERICA
+CA	Canada		NORTH AMERICA
+MX	Mexico	United Mexican States	NORTH AMERICA
+PM	Saint Pierre and Miquelon	Territorial Collectivity of Saint Pierre and Miquelon	NORTH AMERICA
+US	United States	United States of America	NORTH AMERICA
+USAAK	Alaska		NORTH AMERICA
+USAAL	Alabama		NORTH AMERICA
+USAAR	Arkansas		NORTH AMERICA
+USAAZ	Arizona		NORTH AMERICA
+USACA	California		NORTH AMERICA
+USACO	Colorado		NORTH AMERICA
+USACT	Connecticut		NORTH AMERICA
+USADC	Washington DC		NORTH AMERICA
+USADE	Delaware		NORTH AMERICA
+USAFL	Florida		NORTH AMERICA
+USAGA	Georgia		NORTH AMERICA
+USAHI	Hawaii		NORTH AMERICA
+USAIA	Iowa		NORTH AMERICA
+USAID	Idaho		NORTH AMERICA
+USAIL	Illinois		NORTH AMERICA
+USAIN	Indiana		NORTH AMERICA
+USAKS	Kansas		NORTH AMERICA
+USAKY	Kentucky		NORTH AMERICA
+USALA	Louisiana		NORTH AMERICA
+USAMA	Massachusetts		NORTH AMERICA
+USAMD	Maryland		NORTH AMERICA
+USAME	Maine		NORTH AMERICA
+USAMI	Michigan		NORTH AMERICA
+USAMN	Minnesota		NORTH AMERICA
+USAMO	Missouri		NORTH AMERICA
+USAMS	Mississippi		NORTH AMERICA
+USAMT	Montana		NORTH AMERICA
+USANC	North Carolina		NORTH AMERICA
+USAND	North Dakota		NORTH AMERICA
+USANE	Nebraska		NORTH AMERICA
+USANH	New Hampshire		NORTH AMERICA
+USANJ	New Jersey		NORTH AMERICA
+USANM	New Mexico		NORTH AMERICA
+USANV	Nevada		NORTH AMERICA
+USANY	New York		NORTH AMERICA
+USAOH	Ohio		NORTH AMERICA
+USAOK	Oklahoma		NORTH AMERICA
+USAOR	Oregon		NORTH AMERICA
+USAPA	Pennsylvania		NORTH AMERICA
+USARI	Rhode Island		NORTH AMERICA
+USASC	South Carolina		NORTH AMERICA
+USASD	South Dakota		NORTH AMERICA
+USATN	Tennessee		NORTH AMERICA
+USATX	Texas		NORTH AMERICA
+USAUT	Utah		NORTH AMERICA
+USAVA	Virginia		NORTH AMERICA
+USAVT	Vermont		NORTH AMERICA
+USAWA	Washington		NORTH AMERICA
+USAWI	Wisconsin		NORTH AMERICA
+USAWV	West Virginia		NORTH AMERICA
+USAWY	Wyoming		NORTH AMERICA
+AS	American Samoa	Territory of American Samoa	OCEANIA
+AU	Australia	Commonwealth of Australia	OCEANIA
+CC	Cocos (Keeling) Islands	Territory of Cocos (Keeling) Islands	OCEANIA
+CK	Cook Islands		OCEANIA
+CX	Christmas Island	Territory of Christmas Island	OCEANIA
+FJ	Fiji	Republic of Fiji	OCEANIA
+FM	Micronesia	Federated States of Micronesia	OCEANIA
+FO	Faroe Islands		OCEANIA
+GU	Guam	Territory of Guam	OCEANIA
+HM	Heard and McDonald Islands	Territory of Heard Island and McDonald Islands	OCEANIA
+KI	Kiribati	Republic of Kiribati	OCEANIA
+MH	Marshall Islands	Republic of the Marshall Islands	OCEANIA
+NC	New Caledonia	Territory of New Caledonia and Dependencies	OCEANIA
+NF	Norfolk Island	Territory of Norfolk Island	OCEANIA
+NR	Nauru	Republic of Nauru	OCEANIA
+NU	Niue		OCEANIA
+NZ	New Zealand		OCEANIA
+PF	French Polynesia	Territory of French Polynesia	OCEANIA
+PG	Papua New Guinea	Independent State of Papua New Guinea	OCEANIA
+PN	Pitcairn	Pitcairn Islands	OCEANIA
+PW	Palau	Republic of Palau	OCEANIA
+SB	Solomon Islands		OCEANIA
+TK	Tokelau		OCEANIA
+TV	Tuvalu		OCEANIA
+UM	United States Minor Outlying Islands		OCEANIA
+VU	Vanuatu	Republic of Vanuatu	OCEANIA
+WF	Wallis and Futuna	Territory of the Wallis and Futuna Islands	OCEANIA
+WS	Samoa	Independent State of Samoa	OCEANIA
+AQ	Antarctica		OTHER
+MDS	Mid-Sea	A maritime location on or below the surface of a sea or ocean.	OTHER
+SPC	Outer Space	A location outside the Earth's atmosphere.	OTHER
+AIRB	Airborne	A location above the Earth's surface but within the atmosphere.	OTHER
+AI	Anguilla		SOUTH AMERICA
+AR	Argentina	Argentine Republic	SOUTH AMERICA
+BB	Barbados		SOUTH AMERICA
+BO	Bolivia	Plurinational State of Bolivia	SOUTH AMERICA
+BR	Brazil	Federative Republic of Brazil	SOUTH AMERICA
+BS	Bahamas	Commonwealth of the Bahamas	SOUTH AMERICA
+CL	Chile	Republic of Chile	SOUTH AMERICA
+CO	Colombia	Republic of Colombia	SOUTH AMERICA
+CU	Cuba	Republic of Cuba	SOUTH AMERICA
+DM	Dominica	Commonwealth of Dominica	SOUTH AMERICA
+DO	Dominican Republic		SOUTH AMERICA
+EC	Ecuador	Republic of Ecuador	SOUTH AMERICA
+FK	Falkland Islands		SOUTH AMERICA
+GD	Grenada		SOUTH AMERICA
+GF	French Guiana	Department of Guiana	SOUTH AMERICA
+GP	Guadeloupe	Department of Guadeloupe	SOUTH AMERICA
+GS	South Georgia and South Sandwich Islands		SOUTH AMERICA
+GT	Guatemala	Republic of Guatemala	SOUTH AMERICA
+GW	Guinea-Bissau	Republic of Guinea-Bissau	SOUTH AMERICA
+JM	Jamaica		SOUTH AMERICA
+KN	Saint Kitts and Nevis	Federation of Saint Kitts and Nevis	SOUTH AMERICA
+KY	Cayman Islands		SOUTH AMERICA
+LC	Saint Lucia		SOUTH AMERICA
+MQ	Martinique	Department of Martinique	SOUTH AMERICA
+MS	Montserrat		SOUTH AMERICA
+PE	Peru	Republic of Peru	SOUTH AMERICA
+PR	Puerto Rico	Commonwealth of Puerto Rico	SOUTH AMERICA
+PY	Paraguay	Republic of Paraguay	SOUTH AMERICA
+SR	Suriname	Republic of Suriname	SOUTH AMERICA
+ST	Sao Tome and Principe	Democratic Republic of Sao Tome and Principe	SOUTH AMERICA
+TC	Turks and Caicos Islands		SOUTH AMERICA
+TT	Trinidad and Tobago	Republic of Trinidad and Tobago	SOUTH AMERICA
+UY	Uruguay	Oriental Republic of Uruguay	SOUTH AMERICA
+VC	Saint Vincent and the Grenadines		SOUTH AMERICA
+VE	Venezuela	Bolivarian Republic of Venezuela	SOUTH AMERICA
+VG	British Virgin Islands		SOUTH AMERICA
+VI	U.S. Virgin Islands	United States Virgin Islands	SOUTH AMERICA

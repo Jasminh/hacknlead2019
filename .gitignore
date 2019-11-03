@@ -1,1 +1,5 @@
 .DS_Store
+authtoken.cache
+.gitignore~
+Code/.ipynb_checkpoints/
+Code/__pycache__/
