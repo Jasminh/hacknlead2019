@@ -3,6 +3,7 @@ from absl import app
 from absl import flags
 import csv
 import collections
+import json
 
 FLAGS = flags.FLAGS
 
@@ -59,7 +60,7 @@ class MergeData:
         with open(f) as csv_file:
             rows = csv.DictReader(csv_file)
             for row in rows:
-                print(row)
+                # print(row)
                 if row['country'] in self.countries:
                     self.countries[row['country']][row['prevalence_score']] = row['prevalence_score']
                     self.countries[row['country']][row['people_in_slavery']] = row['people_in_slavery']
@@ -120,6 +121,10 @@ def main(argv):
             print(k)
             count_missing += 1
     print(count_missing)
+    with open('/Users/JasminH/hacknlead2019/Data/countries.json', 'w') as cf:
+        json.dump(merge_data.countries, cf)
+    with open('/Users/JasminH/hacknlead2019/Data/products.json', 'w') as pf:
+        json.dump(merge_data.products, pf)
 
 
 if __name__ == '__main__':
