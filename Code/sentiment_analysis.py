@@ -14,25 +14,20 @@ flags.DEFINE_string('text_file', '/Users/JasminH/hacknlead2019/Data/TR_API_files
 def get_news(f, countries):
     with open(f) as texts:
         rows = csv.DictReader(texts, delimiter='\t')
-        # print(countries)
         for row in rows:
             row = sentiment_analyis(row)
             crs = row['countries_long_newversion'].split(',')
             for country in crs:
-                #print(country)
-                try:
-                    if 'articles' in countries[country]:
-                        countries[country]['articles'][row['versionedguid']] = {'text': row['parsed_text'],
+                if 'articles' in countries[country]:
+                    countries[country]['articles'][row['versionedguid']] = {'text': row['parsed_text'],
                                                                                 'polarity': row['polarity'],
                                                                                 'polarity_sentence_scores': row[
                                                                                     'polarity_sentence_scores']}
-                    else:
-                        countries[country]['articles'] = {
-                            row['versionedguid']: {'text': row['parsed_text'], 'polarity': row['polarity'],
+                else:
+                    countries[country]['articles'] = {
+                        row['versionedguid']: {'text': row['parsed_text'], 'polarity': row['polarity'],
                                                    'polarity_sentence_scores': row['polarity_sentence_scores']}}
-                except:
-                    print('****OLD VERSION*****', country)
-        return countries
+            return countries
 
 
 def sentiment_analyis(row):
@@ -43,15 +38,13 @@ def sentiment_analyis(row):
         blob = textblob.TextBlob(sentence)
         scores.append(blob.sentiment[0])
     dist = (0 - max(scores))
-    if dist > min(scores):
+    if dist < min(scores):
         polarity = max(scores)
     else:
         polarity = min(scores)
-    # print(polarity)
 
     row['polarity'] = polarity
     row['polarity_sentence_scores'] = scores
-    #print(row)
 
     return row
 
