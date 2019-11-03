@@ -5,12 +5,17 @@ import java.util.List;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.mongodb.BasicDBObject;
 import com.mongodb.DBCollection;
 import com.mongodb.DBCursor;
 import com.mongodb.DBObject;
+import com.mongodb.client.model.Filters;
 import com.slavery.pojo.SlaveryObj;
 
 @Controller
@@ -46,27 +51,51 @@ public class MainController {
 	   }
 	
 
-	@RequestMapping(value = "/abc", method = RequestMethod.GET)
-    public String addStudent() {
-		System.out.print("Entered");
-		List user_list = new ArrayList();
-        DBCollection coll = MongoFactory.getCollection("myDB", "myCollection");
- 
-        // Fetching cursor object for iterating on the database records.
-        DBCursor cursor = coll.find();  
+	@RequestMapping(value = "/GetCountry", method = RequestMethod.POST)
+	@ResponseBody
+    public String GetCountry(@RequestParam("product") String product,ModelMap model) {
+		System.out.print("Entered:: "+product);
+		List<String> countryListForProduct = new ArrayList<String>();
+		DBCollection coll = MongoFactory.getCollection("goodexplorers", "products");
+		
+		BasicDBObject whereQuery = new BasicDBObject();
+		whereQuery.put("product", product);
+		DBCursor cursor = coll.find(whereQuery);
+		while(cursor.hasNext()) {
+			DBObject dbObject = cursor.next();
+			countryListForProduct = (List<String>) dbObject.get("countries");
+		}
+		
+		model.addAttribute("countryList", countryListForProduct);
+        return "from java";
+	}
+	
+	@RequestMapping(value = "/getChartDetails", method = RequestMethod.POST)
+	@ResponseBody
+    public String getChartDetails(@RequestParam("country") String country,ModelMap model) {
+		
+		DBCollection coll = MongoFactory.getCollection("goodexplorers", "countries");
+		List chartDataList = new ArrayList();
+		String data="";
+		 
+		BasicDBObject whereQuery = new BasicDBObject();
+		whereQuery.put("country", "Afghanistan");
+		DBCursor cursor = coll.find(whereQuery);
+		
         while(cursor.hasNext()) {           
             DBObject dbObject = cursor.next();
             
-            SlaveryObj user = new SlaveryObj();
-            user.setProductName(dbObject.get("product_name").toString());
-            user.setCountry(dbObject.get("country").toString());
- 
-            // Adding the user details to the list.
-            user_list.add(user);
-           
+
+    		SlaveryObj slaveryObj = new SlaveryObj();
+			slaveryObj.setCountry(dbObject.get("country").toString());
+			slaveryObj.setFactors(dbObject.get("factors").toString());
+			 
+			data = dbObject.get("factors").toString();
+			
+			chartDataList.add(slaveryObj);
         }
         
-        return null;
+       return data;
 	}
 	
 }

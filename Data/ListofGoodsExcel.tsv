@@ -74,20 +74,20 @@ num,country,good,child_labor,forced_labor
 72,Burkina Faso,Cotton,X,X
 73,Burkina Faso,Gold,X,X
 74,Burkina Faso,Granite,X,
-75,Myanmar,Bamboo,X,X
-76,Myanmar,"Beans (green, soy, yellow)",X,X
-77,Myanmar,Bricks,X,X
-78,Myanmar,Garments,X,
-79,Myanmar,Jade,X,X
-80,Myanmar,Palm Thatch,,X
-81,Myanmar,Rice,X,X
-82,Myanmar,Rubber,X,X
-83,Myanmar,Rubies,X,X
-84,Myanmar,Sesame,,X
-85,Myanmar,Shrimp,,X
-86,Myanmar,Sugarcane,X,X
-87,Myanmar,Sunflowers,,X
-88,Myanmar,Teak,X,X
+75,Burma,Bamboo,X,X
+76,Burma,"Beans (green, soy, yellow)",X,X
+77,Burma,Bricks,X,X
+78,Burma,Garments,X,
+79,Burma,Jade,X,X
+80,Burma,Palm Thatch,,X
+81,Burma,Rice,X,X
+82,Burma,Rubber,X,X
+83,Burma,Rubies,X,X
+84,Burma,Sesame,,X
+85,Burma,Shrimp,,X
+86,Burma,Sugarcane,X,X
+87,Burma,Sunflowers,,X
+88,Burma,Teak,X,X
 89,Cambodia,Alcoholic Beverages,X,
 90,Cambodia,Bricks,X,
 91,Cambodia,Fish,X,
@@ -127,13 +127,13 @@ num,country,good,child_labor,forced_labor
 125,Costa Rica,Coffee,X,
 126,Cote d'Ivoire,Cocoa,X,X
 127,Cote d'Ivoire,Coffee,X,X
-128,Congo,Cobalt ore (heterogenite),X,
-129,Congo,Copper,X,
-130,Congo,Diamonds,X,
-131,Congo,Gold,X,X
-132,Congo,Tantalum ore (coltan),X,X
-133,Congo,Tin ore (cassiterite),X,X
-134,Congo,Tungsten ore (wolframite),X,X
+128,Democratic Republic of the Congo,Cobalt ore (heterogenite),X,
+129,Democratic Republic of the Congo,Copper,X,
+130,Democratic Republic of the Congo,Diamonds,X,
+131,Democratic Republic of the Congo,Gold,X,X
+132,Democratic Republic of the Congo,Tantalum ore (coltan),X,X
+133,Democratic Republic of the Congo,Tin ore (cassiterite),X,X
+134,Democratic Republic of the Congo,Tungsten ore (wolframite),X,X
 135,Dominican Republic,Baked Goods,X,
 136,Dominican Republic,Coffee,X,
 137,Dominican Republic,Rice,X,
@@ -153,7 +153,7 @@ num,country,good,child_labor,forced_labor
 151,El Salvador,Fireworks,X,
 152,El Salvador,Shellfish,X,
 153,El Salvador,Sugarcane,X,
-154,Swaziland,Bovines,X,
+154,Eswatini,Bovines,X,
 155,Ethiopia,Cattle,X,
 156,Ethiopia,Gold,X,
 157,Ethiopia,Textiles (hand-woven),X,X
@@ -218,8 +218,8 @@ num,country,good,child_labor,forced_labor
 216,Kenya,Sugarcane,X,
 217,Kenya,Tea,X,
 218,Kenya,Tobacco,X,
-219,Kyrgyzstan,Cotton,X,
-220,Kyrgyzstan,Tobacco,X,
+219,Kyrgyz Republic,Cotton,X,
+220,Kyrgyz Republic,Tobacco,X,
 221,Lebanon,Potatoes,X,
 222,Lebanon,Tobacco,X,
 223,Lesotho,Cattle,X,

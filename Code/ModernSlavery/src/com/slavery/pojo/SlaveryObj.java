@@ -10,7 +10,14 @@ public class SlaveryObj implements Serializable {
     private String productName;
     private String country;
     private List<String> countryList;
+    private String factors;
     
+	public String getFactors() {
+		return factors;
+	}
+	public void setFactors(String factors) {
+		this.factors = factors;
+	}
 	public String getProductName() {
 		return productName;
 	}

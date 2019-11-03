@@ -26,9 +26,9 @@
 	src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
 <script src="https://d3js.org/d3.v4.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-	
-	
-	
+
+
+
 <style>
 .fakeimg {
 	height: 200px;
@@ -62,8 +62,8 @@
 </head>
 <body>
 
-	<div class="jumbotron text-center" style="margin-bottom: 0;background-image: url('../../img/background.jpg'); ">
-		<img border="0" src="img/background.jpg" alt="Pulpit rock" width="304" height="228">
+	<div class="jumbotron text-center"
+		style="margin-bottom: 0;background-color: yellow;">
 		<h1>The Good Explorers</h1>
 		<p>Fighting Modern Slavery through Technology</p>
 	</div>
@@ -83,10 +83,11 @@
 	<div class="container" style="margin-top: 30px">
 		<div class="row">
 			<div class="col-sm-4">
-				<h3>What are you interested at </h3>
+				<h3>What are you interested at</h3>
 			</div>
 			<div class="col-sm-4">
-				<select class="chosen" style="width: 500px;" placeholder="Search">
+				<select id="product" class="chosen" style="width: 500px;"
+					onchange="myFunction()">
 					<c:forEach items="${dataList}" var="category">
 						<option value="${category.productName}">${category.productName}</option>
 					</c:forEach>
@@ -95,24 +96,33 @@
 		</div>
 	</div>
 
-	<div class="container" style="margin-top: 30px">
+	<div id="countryDiv" class="container" style="margin-top: 30px;">
 		<div class="row">
 			<div class="col-sm-4">
 				<h3>And where</h3>
 			</div>
 			<div class="col-sm-4">
-				<select class="chosen" style="width: 500px;">
-					<c:forEach items="${dataList}" var="category">
-						<option>Search</option>
-						<option value="${category.country}">${category.country}</option>
-					</c:forEach>
+				<select id="country" class="chosen" style="width: 500px;"
+					onchange="createChart()">
+					<option>India</option>
+					<option>Iran</option>
+					<option>Nepal</option>
+					<option>North Korea</option>
+					<option>Pakistan</option>
+					<option>Russia</option>
+					 <%-- <c:forEach items="${dataList}" var="category">
+						<option value="${category.countryList}">${category.countryList}</option>
+					</c:forEach> --%> 
+					<%-- <c:forEach items="${countryList}" var="item">
+    					${item}<br>
+					</c:forEach> --%>
 				</select>
 			</div>
 		</div>
 	</div>
 
 	<!-- Create a div where the graph will take place -->
-	<div id="my_dataviz" style="margin-left:100px"></div>
+	<div id="my_dataviz" style="margin-left: 100px"></div>
 
 
 	<!-- <div class="jumbotron text-center" style="margin-bottom: 0">
@@ -123,96 +133,138 @@
 		$(".chosen").chosen();
 
 		function myFunction() {
-			alert(document.getElementById("dropdown_coins").value);
+			//alert(document.getElementById("product").value);
+			var productData = { 
+       product : document.getElementById("product").value
+}
+			
+			$.ajax({
+			    type : "POST",
+			    url : "${pageContext.request.contextPath}/hello/GetCountry",
+			    data : productData,
+			    success: function(data){
+			    	document.getElementById("countryDiv").style.display = "block";
+			    }
+			});
 		}
 		
-		// set the dimensions and margins of the graph
-		var width = 1000
-		    height = 1000
-		    margin = 300
+		function createChart(){
+			
+			var countryData = { 
+				       country : "Afghanistan"
+				}
+			
+			$.ajax({
+			    type : "POST",
+			    url : "${pageContext.request.contextPath}/hello/getChartDetails",
+			    data : countryData,
+			    success: function(data){
+			    	//alert("success chart data"+data);
+			    	console.log(data);
+			    	
+			    	// Create dummy data
+					var data = {prevalence_score: 9, vulnerability_score: 20, support_survivors_percentage:30, address_risk_percentage:8, neg_government_complicity:12, criminal_justice_percentage:3, support_survivors:7, address_risk_percentage:14}
+					//var data = { c_f_labor : 6 , vulnerability_index : 93.9,prevalence_score : 22.2 , people_in_slavery : 749000 , vulnerability_score : 93.9 }
+			    	
+			    	
+			    	// set the dimensions and margins of the graph
+					var width = 1000
+					    height = 1000
+					    margin = 300
 
-		// The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
-		var radius = Math.min(width, height) / 2 - margin
+					// The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
+					var radius = Math.min(width, height) / 2 - margin
 
-		// append the svg object to the div called 'my_dataviz'
-		var svg = d3.select("#my_dataviz")
-		  .append("svg")
-		    .attr("width", width)
-		    .attr("height", height)
-		  .append("g")
-		    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+					// append the svg object to the div called 'my_dataviz'
+					var svg = d3.select("#my_dataviz")
+					  .append("svg")
+					    .attr("width", width)
+					    .attr("height", height)
+					  .append("g")
+					    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-		// Create dummy data
-		var data = {prevalence_score: 9, vulnerability_score: 20, support_survivors_percentage:30, address_risk_percentage:8, neg_government_complicity:12, criminal_justice_percentage:3, support_survivors:7, address_risk_percentage:14}
+					
+					// set the color scale
+					var color = d3.scaleOrdinal()
+					  .domain(["a", "b", "c", "d", "e", "f", "g", "h"])
+					  .range(d3.schemeDark2);
 
-		// set the color scale
-		var color = d3.scaleOrdinal()
-		  .domain(["a", "b", "c", "d", "e", "f", "g", "h"])
-		  .range(d3.schemeDark2);
+					// Compute the position of each group on the pie:
+					var pie = d3.pie()
+					  .sort(null) // Do not sort group by size
+					  .value(function(d) {return d.value; })
+					var data_ready = pie(d3.entries(data))
 
-		// Compute the position of each group on the pie:
-		var pie = d3.pie()
-		  .sort(null) // Do not sort group by size
-		  .value(function(d) {return d.value; })
-		var data_ready = pie(d3.entries(data))
+					// The arc generator
+					var arc = d3.arc()
+					  .innerRadius(radius * 0.5)         // This is the size of the donut hole
+					  .outerRadius(radius * 0.8)
 
-		// The arc generator
-		var arc = d3.arc()
-		  .innerRadius(radius * 0.5)         // This is the size of the donut hole
-		  .outerRadius(radius * 0.8)
+					// Another arc that won't be drawn. Just for labels positioning
+					var outerArc = d3.arc()
+					  .innerRadius(radius * 0.9)
+					  .outerRadius(radius * 0.9)
 
-		// Another arc that won't be drawn. Just for labels positioning
-		var outerArc = d3.arc()
-		  .innerRadius(radius * 0.9)
-		  .outerRadius(radius * 0.9)
+					// Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
+					svg
+					  .selectAll('allSlices')
+					  .data(data_ready)
+					  .enter()
+					  .append('path')
+					  .attr('d', arc)
+					  .attr('fill', function(d){ return(color(d.data.key)) })
+					  .attr("stroke", "white")
+					  .style("stroke-width", "2px")
+					  .style("opacity", 0.7)
 
-		// Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
-		svg
-		  .selectAll('allSlices')
-		  .data(data_ready)
-		  .enter()
-		  .append('path')
-		  .attr('d', arc)
-		  .attr('fill', function(d){ return(color(d.data.key)) })
-		  .attr("stroke", "white")
-		  .style("stroke-width", "2px")
-		  .style("opacity", 0.7)
+					// Add the polylines between chart and labels:
+					svg
+					  .selectAll('allPolylines')
+					  .data(data_ready)
+					  .enter()
+					  .append('polyline')
+					    .attr("stroke", "black")
+					    .style("fill", "none")
+					    .attr("stroke-width", 1)
+					    .attr('points', function(d) {
+					      var posA = arc.centroid(d) // line insertion in the slice
+					      var posB = outerArc.centroid(d) // line break: we use the other arc generator that has been built only for that
+					      var posC = outerArc.centroid(d); // Label position = almost the same as posB
+					      var midangle = d.startAngle + (d.endAngle - d.startAngle) / 2 // we need the angle to see if the X position will be at the extreme right or extreme left
+					      posC[0] = radius * 0.95 * (midangle < Math.PI ? 1 : -1); // multiply by 1 or -1 to put it on the right or on the left
+					      return [posA, posB, posC]
+					    })
 
-		// Add the polylines between chart and labels:
-		svg
-		  .selectAll('allPolylines')
-		  .data(data_ready)
-		  .enter()
-		  .append('polyline')
-		    .attr("stroke", "black")
-		    .style("fill", "none")
-		    .attr("stroke-width", 1)
-		    .attr('points', function(d) {
-		      var posA = arc.centroid(d) // line insertion in the slice
-		      var posB = outerArc.centroid(d) // line break: we use the other arc generator that has been built only for that
-		      var posC = outerArc.centroid(d); // Label position = almost the same as posB
-		      var midangle = d.startAngle + (d.endAngle - d.startAngle) / 2 // we need the angle to see if the X position will be at the extreme right or extreme left
-		      posC[0] = radius * 0.95 * (midangle < Math.PI ? 1 : -1); // multiply by 1 or -1 to put it on the right or on the left
-		      return [posA, posB, posC]
-		    })
-
-		// Add the polylines between chart and labels:
-		svg
-		  .selectAll('allLabels')
-		  .data(data_ready)
-		  .enter()
-		  .append('text')
-		    .text( function(d) { console.log(d.data.key) ; return d.data.key } )
-		    .attr('transform', function(d) {
-		        var pos = outerArc.centroid(d);
-		        var midangle = d.startAngle + (d.endAngle - d.startAngle) / 2
-		        pos[0] = radius * 0.99 * (midangle < Math.PI ? 1 : -1);
-		        return 'translate(' + pos + ')';
-		    })
-		    .style('text-anchor', function(d) {
-		        var midangle = d.startAngle + (d.endAngle - d.startAngle) / 2
-		        return (midangle < Math.PI ? 'start' : 'end')
-		    })
+					// Add the polylines between chart and labels:
+					 svg
+					  .selectAll('allLabels')
+					  .data(data_ready)
+					  .enter()
+					  .append('text')
+					    .text( function(d) { console.log(d.data.key) ; return d.data.key } )
+					    .attr('transform', function(d) {
+					        var pos = outerArc.centroid(d);
+					        var midangle = d.startAngle + (d.endAngle - d.startAngle) / 2
+					        pos[0] = radius * 0.99 * (midangle < Math.PI ? 1 : -1);
+					        return 'translate(' + pos + ')';
+					    })
+					    .style('text-anchor', function(d) {
+					        var midangle = d.startAngle + (d.endAngle - d.startAngle) / 2
+					        return (midangle < Math.PI ? 'start' : 'end')
+					    }) 
+					    
+					   
+			    }
+			});
+			
+			
+			
+			    
+			    
+			    
+			    
+		}
+		
 	</script>
 </body>
 

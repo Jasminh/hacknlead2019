@@ -1,0 +1,419 @@
+num,country,good,child_labor,forced_labor
+0,Afghanistan,Bricks,X,X
+1,Afghanistan,Carpets,X,
+2,Afghanistan,Coal,X,
+3,Afghanistan,Poppies,X,
+4,Afghanistan,Salt,X,
+5,Angola,Diamonds,X,X
+6,Argentina,Blueberries,X,
+7,Argentina,Bricks,X,
+8,Argentina,Cotton,X,
+9,Argentina,Garlic,X,
+10,Argentina,Garments,X,X
+11,Argentina,Grapes,X,
+12,Argentina,Olives,X,
+13,Argentina,Strawberries,X,
+14,Argentina,Tobacco,X,
+15,Argentina,Tomatoes,X,
+16,Argentina,Yerba Mate (stimulant plant),X,
+17,Azerbaijan,Cotton,X,
+18,Bangladesh,Bidis (hand-rolled cigarettes),X,
+19,Bangladesh,Bricks,X,
+20,Bangladesh,Dried Fish,X,X
+21,Bangladesh,Footwear,X,
+22,Bangladesh,Furniture (steel),X,
+23,Bangladesh,Garments ,X,
+24,Bangladesh,Glass,X,
+25,Bangladesh,Leather,X,
+26,Bangladesh,Matches,X,
+27,Bangladesh,Poultry,X,
+28,Bangladesh,Salt,X,
+29,Bangladesh,Shrimp,X,
+30,Bangladesh,Soap,X,
+31,Bangladesh,Textiles,X,
+32,Bangladesh,Textiles (jute),X,
+33,Belize,Bananas,X,
+34,Belize,Citrus Fruits,X,
+35,Belize,Sugarcane,X,
+36,Benin,Cotton,X,X
+37,Benin,Granite (crushed),X,
+38,Bolivia,Brazil Nuts/Chestnuts,X,X
+39,Bolivia,Bricks,X,
+40,Bolivia,Cattle,,X
+41,Bolivia,Corn,X,X
+42,Bolivia,Gold,X,
+43,Bolivia,Peanuts,,X
+44,Bolivia,Silver,X,
+45,Bolivia,Sugarcane,X,X
+46,Bolivia,Tin,X,
+47,Bolivia,Zinc,X,
+48,Brazil,Bananas,X,
+49,Brazil,Beef,X,
+50,Brazil,Bricks,X,
+51,Brazil,Cashews,X,
+52,Brazil,Cattle,X,X
+53,Brazil,Ceramics,X,
+54,Brazil,Charcoal,X,X
+55,Brazil,Cocoa,X,
+56,Brazil,Coffee,X,
+57,Brazil,Corn,X,
+58,Brazil,Cotton,X,
+59,Brazil,Fish,X,
+60,Brazil,Footwear,X,
+61,Brazil,Garments,,X
+62,Brazil,Hogs,X,
+63,Brazil,Manioc/Cassava,X,
+64,Brazil,Pineapples,X,
+65,Brazil,Poultry,X,
+66,Brazil,Rice,X,
+67,Brazil,Sheep,X,
+68,Brazil,Sisal,X,
+69,Brazil,Sugarcane,X,X
+70,Brazil,Timber,,X
+71,Brazil,Tobacco,X,
+72,Burkina Faso,Cotton,X,X
+73,Burkina Faso,Gold,X,X
+74,Burkina Faso,Granite,X,
+75,Myanmar,Bamboo,X,X
+76,Myanmar,"Beans (green, soy, yellow)",X,X
+77,Myanmar,Bricks,X,X
+78,Myanmar,Garments,X,
+79,Myanmar,Jade,X,X
+80,Myanmar,Palm Thatch,,X
+81,Myanmar,Rice,X,X
+82,Myanmar,Rubber,X,X
+83,Myanmar,Rubies,X,X
+84,Myanmar,Sesame,,X
+85,Myanmar,Shrimp,,X
+86,Myanmar,Sugarcane,X,X
+87,Myanmar,Sunflowers,,X
+88,Myanmar,Teak,X,X
+89,Cambodia,Alcoholic Beverages,X,
+90,Cambodia,Bricks,X,
+91,Cambodia,Fish,X,
+92,Cambodia,Manioc/Cassava,X,
+93,Cambodia,Meat,X,
+94,Cambodia,Rubber,X,
+95,Cambodia,Salt,X,
+96,Cambodia,Shrimp,X,
+97,Cambodia,Sugarcane,X,
+98,Cambodia,Textiles,X,
+99,Cambodia,Timber,X,
+100,Cambodia,Tobacco,X,
+101,Cameroon,Cocoa,X,
+102,Central African Republic,Diamonds,X,
+103,Chad,Cattle,X,
+104,China,Artificial Flowers,,X
+105,China,Bricks,X,X
+106,China,Christmas Decorations,,X
+107,China,Coal,,X
+108,China,Cotton,X,X
+109,China,Electronics,X,X
+110,China,Fireworks,X,X
+111,China,Footwear,,X
+112,China,Garments,,X
+113,China,Nails,,X
+114,China,Textiles,X,
+115,China,Toys,X,X
+116,Colombia,Bricks (clay),X,
+117,Colombia,Coal,X,
+118,Colombia,Coca (stimulant plant),X,X
+119,Colombia,Coffee,X,
+120,Colombia,Emeralds,X,
+121,Colombia,Gold,X,
+122,Colombia,Pornography,X,
+123,Colombia,Sugarcane,X,
+124,Costa Rica,Cattle,X,
+125,Costa Rica,Coffee,X,
+126,Cote d'Ivoire,Cocoa,X,X
+127,Cote d'Ivoire,Coffee,X,X
+128,Congo,Cobalt ore (heterogenite),X,
+129,Congo,Copper,X,
+130,Congo,Diamonds,X,
+131,Congo,Gold,X,X
+132,Congo,Tantalum ore (coltan),X,X
+133,Congo,Tin ore (cassiterite),X,X
+134,Congo,Tungsten ore (wolframite),X,X
+135,Dominican Republic,Baked Goods,X,
+136,Dominican Republic,Coffee,X,
+137,Dominican Republic,Rice,X,
+138,Dominican Republic,Sugarcane,X,X
+139,Dominican Republic,Tomatoes,X,
+140,Ecuador,Bananas,X,
+141,Ecuador,Bricks,X,
+142,Ecuador,Flowers,X,
+143,Ecuador,Gold,X,
+144,Egypt,Bricks,X,
+145,Egypt,Cotton,X,
+146,Egypt,Stones (limestone),X,
+147,El Salvador,Baked Goods,X,
+148,El Salvador,Cattle,X,
+149,El Salvador,Cereal Grains,X,
+150,El Salvador,Coffee,X,
+151,El Salvador,Fireworks,X,
+152,El Salvador,Shellfish,X,
+153,El Salvador,Sugarcane,X,
+154,Swaziland,Bovines,X,
+155,Ethiopia,Cattle,X,
+156,Ethiopia,Gold,X,
+157,Ethiopia,Textiles (hand-woven),X,X
+158,Ghana,Cocoa,X,
+159,Ghana,Fish,X,X
+160,Ghana,Gold,X,
+161,Ghana,Tilapia (fish),X,X
+162,Guatemala,Broccoli,X,
+163,Guatemala,Coffee,X,
+164,Guatemala,Corn,X,
+165,Guatemala,Fireworks,X,
+166,Guatemala,Gravel (crushed stones),X,
+167,Guatemala,Sugarcane,X,
+168,Guinea,Cashews,X,
+169,Guinea,Cocoa,X,
+170,Guinea,Coffee,X,
+171,Guinea,Diamonds,X,
+172,Guinea,Gold,X,
+173,Honduras,Coffee,X,
+174,Honduras,Lobsters,X,
+175,Honduras,Melons,X,
+176,India,Bidis (hand-rolled cigarettes),X,
+177,India,Brassware,X,
+178,India,Bricks,X,X
+179,India,Carpets,X,X
+180,India,Cottonseed (hybrid),X,X
+181,India,Embellished Textiles,X,X
+182,India,Fireworks,X,
+183,India,Footwear,X,
+184,India,Garments,X,X
+185,India,Gems,X,
+186,India,Glass Bangles,X,
+187,India,Incense (agarbatti),X,
+188,India,Leather Goods/Accessories,X,
+189,India,Locks,X,
+190,India,Matches,X,
+191,India,Mica,X,
+192,India,Rice,X,X
+193,India,Silk Fabric,X,
+194,India,Silk Thread,X,
+195,India,Soccer Balls,X,
+196,India,Stones,X,X
+197,India,Sugarcane,X,
+198,India,Thread/Yarn,X,
+199,India,Cotton,X,
+200,Indonesia,Fish,X,X
+201,Indonesia,Footwear (sandals),X,
+202,Indonesia,Gold,X,
+203,Indonesia,Oil (palm),X,
+204,Indonesia,Rubber,X,
+205,Indonesia,Tin,X,
+206,Indonesia,Tobacco,X,
+207,Iran,Bricks,X,
+208,Iran,Carpets,X,
+209,Kazakhstan,Cotton,X,X
+210,Kenya,Coffee,X,
+211,Kenya,Fish,X,
+212,Kenya,Miraa (stimulant plant),X,
+213,Kenya,Rice,X,
+214,Kenya,Sand,X,
+215,Kenya,Sisal,X,
+216,Kenya,Sugarcane,X,
+217,Kenya,Tea,X,
+218,Kenya,Tobacco,X,
+219,Kyrgyzstan,Cotton,X,
+220,Kyrgyzstan,Tobacco,X,
+221,Lebanon,Potatoes,X,
+222,Lebanon,Tobacco,X,
+223,Lesotho,Cattle,X,
+224,Liberia,Diamonds,X,
+225,Liberia,Rubber,X,
+226,Madagascar,Sapphires,X,
+227,Madagascar,Stones,X,
+228,Madagascar,Vanilla,X,
+229,Malawi,Tea,X,
+230,Malawi,Tobacco,X,X
+231,Malaysia,Electronics,,X
+232,Malaysia,Garments,,X
+233,Malaysia,Oil (palm),X,X
+234,Mali,Cotton,X,
+235,Mali,Gold,X,
+236,Mali,Rice,X,X
+237,Mauritania,Cattle,X,
+238,Mauritania,Goats,X,
+239,Mexico,Beans (green beans),X,
+240,Mexico,Chile Peppers,X,X
+241,Mexico,Coffee,X,
+242,Mexico,Cucumbers,X,
+243,Mexico,Eggplants,X,
+244,Mexico,Melons,X,
+245,Mexico,Onions,X,
+246,Mexico,Poppies,X,
+247,Mexico,Pornography,X,
+248,Mexico,Sugarcane,X,
+249,Mexico,Tobacco,X,
+250,Mexico,Tomatoes,X,X
+251,Mongolia,Coal,X,
+252,Mongolia,Fluorspar (mineral),X,
+253,Mongolia,Gold,X,
+254,Mozambique,Tobacco,X,
+255,Namibia,Cattle,X,
+256,Nepal,Bricks,X,X
+257,Nepal,Carpets,X,X
+258,Nepal,Embellished Textiles,X,X
+259,Nepal,Stones,X,X
+260,Nicaragua,Bananas,X,
+261,Nicaragua,Coffee,X,
+262,Nicaragua,Gold,X,
+263,Nicaragua,Gravel (crushed stones),X,
+264,Nicaragua,Shellfish,X,
+265,Nicaragua,Stones (pumice),X,
+266,Nicaragua,Tobacco,X,
+267,Niger,Cattle,,X
+268,Niger,Gold,X,
+269,Niger,Gypsum (mineral),X,
+270,Niger,Salt,X,
+271,Niger,Trona (mineral),X,
+272,Nigeria,Cocoa,X,X
+273,Nigeria,Gold,X,
+274,Nigeria,Granite,X,X
+275,Nigeria,Gravel (crushed stones),X,X
+276,Nigeria,Manioc/Cassava,X,
+277,Nigeria,Sand,X,
+278,North Korea,Bricks,,X
+279,North Korea,Cement,,X
+280,North Korea,Coal,,X
+281,North Korea,Gold,,X
+282,North Korea,Iron,,X
+283,North Korea,Textiles,,X
+284,North Korea,Timber,,X
+285,Pakistan,Bricks,X,X
+286,Pakistan,Carpets,X,X
+287,Pakistan,Coal,X,X
+288,Pakistan,Cotton,,X
+289,Pakistan,Glass Bangles,X,
+290,Pakistan,Leather,X,
+291,Pakistan,Sugarcane,,X
+292,Pakistan,Surgical Instruments,X,
+293,Pakistan,Wheat,,X
+294,Panama,Coffee,X,
+295,Panama,Melons,X,
+296,Paraguay,Beans ,X,
+297,Paraguay,Bricks,X,
+298,Paraguay,Cabbages,X,
+299,Paraguay,Carrots,X,
+300,Paraguay,Cattle,X,X
+301,Paraguay,Corn,X,
+302,Paraguay,Fish,X,
+303,Paraguay,Goats,X,
+304,Paraguay,Hogs,X,
+305,Paraguay,Lettuce,X,
+306,Paraguay,Manioc/Cassava,X,
+307,Paraguay,Melons,X,
+308,Paraguay,Onions,X,
+309,Paraguay,Peanuts,X,
+310,Paraguay,Peppers,X,
+311,Paraguay,Pornography,X,
+312,Paraguay,Poultry,X,
+313,Paraguay,Sesame,X,
+314,Paraguay,Sheep,X,
+315,Paraguay,Stones (limestone),X,
+316,Paraguay,Sugarcane,X,
+317,Paraguay,Sweet Potatoes,X,
+318,Paraguay,Tomatoes,X,
+319,Paraguay,Yerba Mate (stimulant plant),X,
+320,Peru,Brazil Nuts/Chestnuts,,X
+321,Peru,Bricks,X,
+322,Peru,Coca (stimulant plant),X,
+323,Peru,Fireworks,X,
+324,Peru,Fish,X,
+325,Peru,Gold,X,X
+326,Peru,Timber,,X
+327,Philippines,Bananas,X,
+328,Philippines,Coconuts,X,
+329,Philippines,Corn,X,
+330,Philippines,Fashion Accessories,X,
+331,Philippines,Fish,X,
+332,Philippines,Gold,X,
+333,Philippines,Hogs,X,
+334,Philippines,Pornography,X,
+335,Philippines,Pyrotechnics,X,
+336,Philippines,Rice,X,
+337,Philippines,Rubber,X,
+338,Philippines,Sugarcane,X,
+339,Philippines,Tobacco,X,
+340,Russia,Bricks,,X
+341,Russia,Pornography,X,X
+342,Russia,Timber,,X
+343,Rwanda,Tea,X,
+344,Senegal,Gold,X,
+345,Sierra Leone,Cocoa,X,
+346,Sierra Leone,Coffee,X,
+347,Sierra Leone,Diamonds,X,X
+348,Sierra Leone,Granite,X,
+349,Sierra Leone,Oil (Palm),X,
+350,South Sudan,Cattle,X,X
+351,Sudan,Gold,X,
+352,Suriname,Gold,X,
+353,Tajikistan,Cotton,X,X
+354,Tanzania,Cloves,X,
+355,Tanzania,Coffee,X,
+356,Tanzania,Nile Perch (fish),X,
+357,Tanzania,Gold,X,
+358,Tanzania,Sisal,X,
+359,Tanzania,Tanzanite (gems),X,
+360,Tanzania,Tea,X,
+361,Tanzania,Tobacco,X,
+362,Thailand,Fish,,X
+363,Thailand,Garments,X,X
+364,Thailand,Pornography,X,
+365,Thailand,Shrimp,X,X
+366,Thailand,Sugarcane,X,
+367,Turkey,Citrus Fruits,X,
+368,Turkey,Cotton,X,
+369,Turkey,Cumin,X,
+370,Turkey,Footwear,X,
+371,Turkey,Furniture,X,
+372,Turkey,Garments,X,
+373,Turkey,Hazelnuts,X,
+374,Turkey,Peanuts,X,
+375,Turkey,Pulses (legumes),X,
+376,Turkey,Sugar Beets,X,
+377,Turkmenistan,Cotton,X,X
+378,Uganda,Bricks,X,
+379,Uganda,Cattle,X,
+380,Uganda,Charcoal,X,
+381,Uganda,Coffee,X,
+382,Uganda,Fish,X,
+383,Uganda,Gold,X,
+384,Uganda,Rice,X,
+385,Uganda,Sand,X,
+386,Uganda,Stones,X,
+387,Uganda,Sugarcane,X,
+388,Uganda,Tea,X,
+389,Uganda,Tobacco,X,
+390,Uganda,Vanilla,X,
+391,Ukraine,Amber,X,
+392,Ukraine,Coal,X,
+393,Ukraine,Pornography,X,
+394,Uzbekistan,Cotton,,X
+395,Uzbekistan,Silk Cocoons,,X
+396,Vietnam,Bricks,X,
+397,Vietnam,Cashews,X,
+398,Vietnam,Coffee,X,
+399,Vietnam,Fish,X,
+400,Vietnam,Footwear,X,
+401,Vietnam,Furniture,X,
+402,Vietnam,Garments,X,X
+403,Vietnam,Leather,X,
+404,Vietnam,Pepper,X,
+405,Vietnam,Rice,X,
+406,Vietnam,Rubber,X,
+407,Vietnam,Sugarcane,X,
+408,Vietnam,Tea,X,
+409,Vietnam,Textiles,X,
+410,Vietnam,Timber,X,
+411,Vietnam,Tobacco,X,
+412,Yemen,Fish,X,
+413,Zambia,Cattle,X,
+414,Zambia,Cotton,X,
+415,Zambia,Gems,X,
+416,Zambia,Stones,X,
+417,Zambia,Tobacco,X,
