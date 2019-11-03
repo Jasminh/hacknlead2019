@@ -5,7 +5,7 @@ import json,os,sys
 git_dir = sys.argv[1] #'/Users/qingyao/hacknlead/hacknlead2019/'
 
 client = MongoClient()
-db = client.goodexplores
+db = client.goodexplorers
 products_cl = db.products
 countries_cl = db.countries
 
