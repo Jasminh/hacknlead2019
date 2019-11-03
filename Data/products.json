@@ -1,0 +1,722 @@
+{
+  "Bricks": [
+    "Afghanistan",
+    "Argentina",
+    "Bangladesh",
+    "Bolivia",
+    "Brazil",
+    "Myanmar",
+    "Cambodia",
+    "China",
+    "Ecuador",
+    "Egypt",
+    "India",
+    "Iran",
+    "Nepal",
+    "North Korea",
+    "Pakistan",
+    "Paraguay",
+    "Peru",
+    "Russia",
+    "Uganda",
+    "Vietnam"
+  ],
+  "Carpets": [
+    "Afghanistan",
+    "India",
+    "Iran",
+    "Nepal",
+    "Pakistan"
+  ],
+  "Coal": [
+    "Afghanistan",
+    "China",
+    "Colombia",
+    "Mongolia",
+    "North Korea",
+    "Pakistan",
+    "Ukraine"
+  ],
+  "Poppies": [
+    "Afghanistan",
+    "Mexico"
+  ],
+  "Salt": [
+    "Afghanistan",
+    "Bangladesh",
+    "Cambodia",
+    "Niger"
+  ],
+  "Diamonds": [
+    "Angola",
+    "Central African Republic",
+    "Congo",
+    "Guinea",
+    "Liberia",
+    "Sierra Leone"
+  ],
+  "Blueberries": [
+    "Argentina"
+  ],
+  "Cotton": [
+    "Argentina",
+    "Azerbaijan",
+    "Benin",
+    "Brazil",
+    "Burkina Faso",
+    "China",
+    "Egypt",
+    "India",
+    "Kazakhstan",
+    "Kyrgyzstan",
+    "Mali",
+    "Pakistan",
+    "Tajikistan",
+    "Turkey",
+    "Turkmenistan",
+    "Uzbekistan",
+    "Zambia"
+  ],
+  "Garlic": [
+    "Argentina"
+  ],
+  "Garments": [
+    "Argentina",
+    "Brazil",
+    "Myanmar",
+    "China",
+    "India",
+    "Malaysia",
+    "Thailand",
+    "Turkey",
+    "Vietnam"
+  ],
+  "Grapes": [
+    "Argentina"
+  ],
+  "Olives": [
+    "Argentina"
+  ],
+  "Strawberries": [
+    "Argentina"
+  ],
+  "Tobacco": [
+    "Argentina",
+    "Brazil",
+    "Cambodia",
+    "Indonesia",
+    "Kenya",
+    "Kyrgyzstan",
+    "Lebanon",
+    "Malawi",
+    "Mexico",
+    "Mozambique",
+    "Nicaragua",
+    "Philippines",
+    "Tanzania",
+    "Uganda",
+    "Vietnam",
+    "Zambia"
+  ],
+  "Tomatoes": [
+    "Argentina",
+    "Dominican Republic",
+    "Mexico",
+    "Paraguay"
+  ],
+  "Yerba Mate (stimulant plant)": [
+    "Argentina",
+    "Paraguay"
+  ],
+  "Bidis (hand-rolled cigarettes)": [
+    "Bangladesh",
+    "India"
+  ],
+  "Dried Fish": [
+    "Bangladesh"
+  ],
+  "Footwear": [
+    "Bangladesh",
+    "Brazil",
+    "China",
+    "India",
+    "Turkey",
+    "Vietnam"
+  ],
+  "Furniture (steel)": [
+    "Bangladesh"
+  ],
+  "Garments ": [
+    "Bangladesh"
+  ],
+  "Glass": [
+    "Bangladesh"
+  ],
+  "Leather": [
+    "Bangladesh",
+    "Pakistan",
+    "Vietnam"
+  ],
+  "Matches": [
+    "Bangladesh",
+    "India"
+  ],
+  "Poultry": [
+    "Bangladesh",
+    "Brazil",
+    "Paraguay"
+  ],
+  "Shrimp": [
+    "Bangladesh",
+    "Myanmar",
+    "Cambodia",
+    "Thailand"
+  ],
+  "Soap": [
+    "Bangladesh"
+  ],
+  "Textiles": [
+    "Bangladesh",
+    "Cambodia",
+    "China",
+    "North Korea",
+    "Vietnam"
+  ],
+  "Textiles (jute)": [
+    "Bangladesh"
+  ],
+  "Bananas": [
+    "Belize",
+    "Brazil",
+    "Ecuador",
+    "Nicaragua",
+    "Philippines"
+  ],
+  "Citrus Fruits": [
+    "Belize",
+    "Turkey"
+  ],
+  "Sugarcane": [
+    "Belize",
+    "Bolivia",
+    "Brazil",
+    "Myanmar",
+    "Cambodia",
+    "Colombia",
+    "Dominican Republic",
+    "El Salvador",
+    "Guatemala",
+    "India",
+    "Kenya",
+    "Mexico",
+    "Pakistan",
+    "Paraguay",
+    "Philippines",
+    "Thailand",
+    "Uganda",
+    "Vietnam"
+  ],
+  "Granite (crushed)": [
+    "Benin"
+  ],
+  "Brazil Nuts/Chestnuts": [
+    "Bolivia",
+    "Peru"
+  ],
+  "Cattle": [
+    "Bolivia",
+    "Brazil",
+    "Chad",
+    "Costa Rica",
+    "El Salvador",
+    "Ethiopia",
+    "Lesotho",
+    "Mauritania",
+    "Namibia",
+    "Niger",
+    "Paraguay",
+    "South Sudan",
+    "Uganda",
+    "Zambia"
+  ],
+  "Corn": [
+    "Bolivia",
+    "Brazil",
+    "Guatemala",
+    "Paraguay",
+    "Philippines"
+  ],
+  "Gold": [
+    "Bolivia",
+    "Burkina Faso",
+    "Colombia",
+    "Congo",
+    "Ecuador",
+    "Ethiopia",
+    "Ghana",
+    "Guinea",
+    "Indonesia",
+    "Mali",
+    "Mongolia",
+    "Nicaragua",
+    "Niger",
+    "Nigeria",
+    "North Korea",
+    "Peru",
+    "Philippines",
+    "Senegal",
+    "Sudan",
+    "Suriname",
+    "Tanzania",
+    "Uganda"
+  ],
+  "Peanuts": [
+    "Bolivia",
+    "Paraguay",
+    "Turkey"
+  ],
+  "Silver": [
+    "Bolivia"
+  ],
+  "Tin": [
+    "Bolivia",
+    "Indonesia"
+  ],
+  "Zinc": [
+    "Bolivia"
+  ],
+  "Beef": [
+    "Brazil"
+  ],
+  "Cashews": [
+    "Brazil",
+    "Guinea",
+    "Vietnam"
+  ],
+  "Ceramics": [
+    "Brazil"
+  ],
+  "Charcoal": [
+    "Brazil",
+    "Uganda"
+  ],
+  "Cocoa": [
+    "Brazil",
+    "Cameroon",
+    "Cote d'Ivoire",
+    "Ghana",
+    "Guinea",
+    "Nigeria",
+    "Sierra Leone"
+  ],
+  "Coffee": [
+    "Brazil",
+    "Colombia",
+    "Costa Rica",
+    "Cote d'Ivoire",
+    "Dominican Republic",
+    "El Salvador",
+    "Guatemala",
+    "Guinea",
+    "Honduras",
+    "Kenya",
+    "Mexico",
+    "Nicaragua",
+    "Panama",
+    "Sierra Leone",
+    "Tanzania",
+    "Uganda",
+    "Vietnam"
+  ],
+  "Fish": [
+    "Brazil",
+    "Cambodia",
+    "Ghana",
+    "Indonesia",
+    "Kenya",
+    "Paraguay",
+    "Peru",
+    "Philippines",
+    "Thailand",
+    "Uganda",
+    "Vietnam",
+    "Yemen"
+  ],
+  "Hogs": [
+    "Brazil",
+    "Paraguay",
+    "Philippines"
+  ],
+  "Manioc/Cassava": [
+    "Brazil",
+    "Cambodia",
+    "Nigeria",
+    "Paraguay"
+  ],
+  "Pineapples": [
+    "Brazil"
+  ],
+  "Rice": [
+    "Brazil",
+    "Myanmar",
+    "Dominican Republic",
+    "India",
+    "Kenya",
+    "Mali",
+    "Philippines",
+    "Uganda",
+    "Vietnam"
+  ],
+  "Sheep": [
+    "Brazil",
+    "Paraguay"
+  ],
+  "Sisal": [
+    "Brazil",
+    "Kenya",
+    "Tanzania"
+  ],
+  "Timber": [
+    "Brazil",
+    "Cambodia",
+    "North Korea",
+    "Peru",
+    "Russia",
+    "Vietnam"
+  ],
+  "Granite": [
+    "Burkina Faso",
+    "Nigeria",
+    "Sierra Leone"
+  ],
+  "Bamboo": [
+    "Myanmar"
+  ],
+  "Beans (green, soy, yellow)": [
+    "Myanmar"
+  ],
+  "Jade": [
+    "Myanmar"
+  ],
+  "Palm Thatch": [
+    "Myanmar"
+  ],
+  "Rubber": [
+    "Myanmar",
+    "Cambodia",
+    "Indonesia",
+    "Liberia",
+    "Philippines",
+    "Vietnam"
+  ],
+  "Rubies": [
+    "Myanmar"
+  ],
+  "Sesame": [
+    "Myanmar",
+    "Paraguay"
+  ],
+  "Sunflowers": [
+    "Myanmar"
+  ],
+  "Teak": [
+    "Myanmar"
+  ],
+  "Alcoholic Beverages": [
+    "Cambodia"
+  ],
+  "Meat": [
+    "Cambodia"
+  ],
+  "Artificial Flowers": [
+    "China"
+  ],
+  "Christmas Decorations": [
+    "China"
+  ],
+  "Electronics": [
+    "China",
+    "Malaysia"
+  ],
+  "Fireworks": [
+    "China",
+    "El Salvador",
+    "Guatemala",
+    "India",
+    "Peru"
+  ],
+  "Nails": [
+    "China"
+  ],
+  "Toys": [
+    "China"
+  ],
+  "Bricks (clay)": [
+    "Colombia"
+  ],
+  "Coca (stimulant plant)": [
+    "Colombia",
+    "Peru"
+  ],
+  "Emeralds": [
+    "Colombia"
+  ],
+  "Pornography": [
+    "Colombia",
+    "Mexico",
+    "Paraguay",
+    "Philippines",
+    "Russia",
+    "Thailand",
+    "Ukraine"
+  ],
+  "Cobalt ore (heterogenite)": [
+    "Congo"
+  ],
+  "Copper": [
+    "Congo"
+  ],
+  "Tantalum ore (coltan)": [
+    "Congo"
+  ],
+  "Tin ore (cassiterite)": [
+    "Congo"
+  ],
+  "Tungsten ore (wolframite)": [
+    "Congo"
+  ],
+  "Baked Goods": [
+    "Dominican Republic",
+    "El Salvador"
+  ],
+  "Flowers": [
+    "Ecuador"
+  ],
+  "Stones (limestone)": [
+    "Egypt",
+    "Paraguay"
+  ],
+  "Cereal Grains": [
+    "El Salvador"
+  ],
+  "Shellfish": [
+    "El Salvador",
+    "Nicaragua"
+  ],
+  "Bovines": [
+    "Swaziland"
+  ],
+  "Textiles (hand-woven)": [
+    "Ethiopia"
+  ],
+  "Tilapia (fish)": [
+    "Ghana"
+  ],
+  "Broccoli": [
+    "Guatemala"
+  ],
+  "Gravel (crushed stones)": [
+    "Guatemala",
+    "Nicaragua",
+    "Nigeria"
+  ],
+  "Lobsters": [
+    "Honduras"
+  ],
+  "Melons": [
+    "Honduras",
+    "Mexico",
+    "Panama",
+    "Paraguay"
+  ],
+  "Brassware": [
+    "India"
+  ],
+  "Cottonseed (hybrid)": [
+    "India"
+  ],
+  "Embellished Textiles": [
+    "India",
+    "Nepal"
+  ],
+  "Gems": [
+    "India",
+    "Zambia"
+  ],
+  "Glass Bangles": [
+    "India",
+    "Pakistan"
+  ],
+  "Incense (agarbatti)": [
+    "India"
+  ],
+  "Leather Goods/Accessories": [
+    "India"
+  ],
+  "Locks": [
+    "India"
+  ],
+  "Mica": [
+    "India"
+  ],
+  "Silk Fabric": [
+    "India"
+  ],
+  "Silk Thread": [
+    "India"
+  ],
+  "Soccer Balls": [
+    "India"
+  ],
+  "Stones": [
+    "India",
+    "Madagascar",
+    "Nepal",
+    "Uganda",
+    "Zambia"
+  ],
+  "Thread/Yarn": [
+    "India"
+  ],
+  "Footwear (sandals)": [
+    "Indonesia"
+  ],
+  "Oil (palm)": [
+    "Indonesia",
+    "Malaysia"
+  ],
+  "Miraa (stimulant plant)": [
+    "Kenya"
+  ],
+  "Sand": [
+    "Kenya",
+    "Nigeria",
+    "Uganda"
+  ],
+  "Tea": [
+    "Kenya",
+    "Malawi",
+    "Rwanda",
+    "Tanzania",
+    "Uganda",
+    "Vietnam"
+  ],
+  "Potatoes": [
+    "Lebanon"
+  ],
+  "Sapphires": [
+    "Madagascar"
+  ],
+  "Vanilla": [
+    "Madagascar",
+    "Uganda"
+  ],
+  "Goats": [
+    "Mauritania",
+    "Paraguay"
+  ],
+  "Beans (green beans)": [
+    "Mexico"
+  ],
+  "Chile Peppers": [
+    "Mexico"
+  ],
+  "Cucumbers": [
+    "Mexico"
+  ],
+  "Eggplants": [
+    "Mexico"
+  ],
+  "Onions": [
+    "Mexico",
+    "Paraguay"
+  ],
+  "Fluorspar (mineral)": [
+    "Mongolia"
+  ],
+  "Stones (pumice)": [
+    "Nicaragua"
+  ],
+  "Gypsum (mineral)": [
+    "Niger"
+  ],
+  "Trona (mineral)": [
+    "Niger"
+  ],
+  "Cement": [
+    "North Korea"
+  ],
+  "Iron": [
+    "North Korea"
+  ],
+  "Surgical Instruments": [
+    "Pakistan"
+  ],
+  "Wheat": [
+    "Pakistan"
+  ],
+  "Beans ": [
+    "Paraguay"
+  ],
+  "Cabbages": [
+    "Paraguay"
+  ],
+  "Carrots": [
+    "Paraguay"
+  ],
+  "Lettuce": [
+    "Paraguay"
+  ],
+  "Peppers": [
+    "Paraguay"
+  ],
+  "Sweet Potatoes": [
+    "Paraguay"
+  ],
+  "Coconuts": [
+    "Philippines"
+  ],
+  "Fashion Accessories": [
+    "Philippines"
+  ],
+  "Pyrotechnics": [
+    "Philippines"
+  ],
+  "Oil (Palm)": [
+    "Sierra Leone"
+  ],
+  "Cloves": [
+    "Tanzania"
+  ],
+  "Nile Perch (fish)": [
+    "Tanzania"
+  ],
+  "Tanzanite (gems)": [
+    "Tanzania"
+  ],
+  "Cumin": [
+    "Turkey"
+  ],
+  "Furniture": [
+    "Turkey",
+    "Vietnam"
+  ],
+  "Hazelnuts": [
+    "Turkey"
+  ],
+  "Pulses (legumes)": [
+    "Turkey"
+  ],
+  "Sugar Beets": [
+    "Turkey"
+  ],
+  "Amber": [
+    "Ukraine"
+  ],
+  "Silk Cocoons": [
+    "Uzbekistan"
+  ],
+  "Pepper": [
+    "Vietnam"
+  ]
+}
