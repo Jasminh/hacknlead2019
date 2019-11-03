@@ -1,7 +1,6 @@
 {
   "Afghanistan": {
     "c_f_labor": 6,
-    "vulnerability_index": "93.9",
     "prevalence_score": "22.2",
     "people_in_slavery": "749'000",
     "vulnerability_score": "93.9",
@@ -14,7 +13,7 @@
   },
   "Angola": {
     "c_f_labor": 2,
-    "vulnerability_index": "62.3",
+    "prevention_percentage_total": "33.9",
     "prevalence_score": "7.2",
     "people_in_slavery": "199'000",
     "vulnerability_score": "62.3",
@@ -27,7 +26,7 @@
   },
   "Argentina": {
     "c_f_labor": 12,
-    "vulnerability_index": "28.9",
+    "prevention_percentage_total": "72.1",
     "prevalence_score": "1.3",
     "people_in_slavery": "55'000",
     "vulnerability_score": "28.9",
@@ -40,7 +39,7 @@
   },
   "Azerbaijan": {
     "c_f_labor": 1,
-    "vulnerability_index": "47.8",
+    "prevention_percentage_total": "59.1",
     "prevalence_score": "4.5",
     "people_in_slavery": "43'000",
     "vulnerability_score": "47.8",
@@ -53,7 +52,7 @@
   },
   "Bangladesh": {
     "c_f_labor": 16,
-    "vulnerability_index": "50",
+    "prevention_percentage_total": "46.5",
     "prevalence_score": "3.7",
     "people_in_slavery": "592'000",
     "vulnerability_score": "50.0",
@@ -66,6 +65,7 @@
   },
   "Belize": {
     "c_f_labor": 3,
+    "prevention_percentage_total": "38.2",
     "prevalence_score": "",
     "people_in_slavery": "",
     "vulnerability_score": "",
@@ -78,7 +78,7 @@
   },
   "Benin": {
     "c_f_labor": 3,
-    "vulnerability_index": "45",
+    "prevention_percentage_total": "44.0",
     "prevalence_score": "5.5",
     "people_in_slavery": "58'000",
     "vulnerability_score": "45.0",
@@ -103,7 +103,7 @@
   },
   "Brazil": {
     "c_f_labor": 27,
-    "vulnerability_index": "36.4",
+    "prevention_percentage_total": "59.5",
     "prevalence_score": "1.8",
     "people_in_slavery": "369'000",
     "vulnerability_score": "36.4",
@@ -116,6 +116,7 @@
   },
   "Burkina Faso": {
     "c_f_labor": 5,
+    "prevention_percentage_total": "34.3",
     "prevalence_score": "4.5",
     "people_in_slavery": "82'000",
     "vulnerability_score": "53.1",
@@ -128,7 +129,7 @@
   },
   "Myanmar": {
     "c_f_labor": 23,
-    "vulnerability_index": "65.9",
+    "prevention_percentage_total": "31.9",
     "prevalence_score": "11.0",
     "people_in_slavery": "575'000",
     "vulnerability_score": "65.9",
@@ -141,7 +142,7 @@
   },
   "Cambodia": {
     "c_f_labor": 12,
-    "vulnerability_index": "63.5",
+    "prevention_percentage_total": "39.4",
     "prevalence_score": "16.8",
     "people_in_slavery": "261'000",
     "vulnerability_score": "63.5",
@@ -154,7 +155,7 @@
   },
   "Cameroon": {
     "c_f_labor": 1,
-    "vulnerability_index": "69.6",
+    "prevention_percentage_total": "37.2",
     "prevalence_score": "6.9",
     "people_in_slavery": "157'000",
     "vulnerability_score": "69.6",
@@ -167,7 +168,7 @@
   },
   "Central African Republic": {
     "c_f_labor": 1,
-    "vulnerability_index": "100",
+    "prevention_percentage_total": "23.8",
     "prevalence_score": "22.3",
     "people_in_slavery": "101'000",
     "vulnerability_score": "100.0",
@@ -180,7 +181,7 @@
   },
   "Chad": {
     "c_f_labor": 1,
-    "vulnerability_index": "74.9",
+    "prevention_percentage_total": "17.6",
     "prevalence_score": "12.0",
     "people_in_slavery": "168'000",
     "vulnerability_score": "74.9",
@@ -193,7 +194,7 @@
   },
   "China": {
     "c_f_labor": 17,
-    "vulnerability_index": "50.6",
+    "prevention_percentage_total": "35.2",
     "prevalence_score": "2.8",
     "people_in_slavery": "3'864'000",
     "vulnerability_score": "50.6",
@@ -206,7 +207,7 @@
   },
   "Colombia": {
     "c_f_labor": 9,
-    "vulnerability_index": "51.6",
+    "prevention_percentage_total": "52.7",
     "prevalence_score": "2.7",
     "people_in_slavery": "131'000",
     "vulnerability_score": "51.6",
@@ -219,6 +220,7 @@
   },
   "Costa Rica": {
     "c_f_labor": 2,
+    "prevention_percentage_total": "50.9",
     "prevalence_score": "1.3",
     "people_in_slavery": "6'000",
     "vulnerability_score": "28.4",
@@ -243,7 +245,7 @@
   },
   "Congo": {
     "c_f_labor": 11,
-    "vulnerability_index": "69.2",
+    "prevention_percentage_total": "16.6",
     "prevalence_score": "8.0",
     "people_in_slavery": "40'000",
     "vulnerability_score": "69.2",
@@ -256,6 +258,7 @@
   },
   "Dominican Republic": {
     "c_f_labor": 6,
+    "prevention_percentage_total": "49.1",
     "prevalence_score": "4.0",
     "people_in_slavery": "42'000",
     "vulnerability_score": "43.1",
@@ -268,7 +271,7 @@
   },
   "Ecuador": {
     "c_f_labor": 4,
-    "vulnerability_index": "41.3",
+    "prevention_percentage_total": "49.7",
     "prevalence_score": "2.4",
     "people_in_slavery": "39'000",
     "vulnerability_score": "41.3",
@@ -281,7 +284,7 @@
   },
   "Egypt": {
     "c_f_labor": 3,
-    "vulnerability_index": "60.4",
+    "prevention_percentage_total": "35.9",
     "prevalence_score": "5.5",
     "people_in_slavery": "518'000",
     "vulnerability_score": "60.4",
@@ -294,6 +297,7 @@
   },
   "El Salvador": {
     "c_f_labor": 7,
+    "prevention_percentage_total": "40.0",
     "prevalence_score": "2.5",
     "people_in_slavery": "16'000",
     "vulnerability_score": "50.7",
@@ -306,7 +310,7 @@
   },
   "Swaziland": {
     "c_f_labor": 1,
-    "vulnerability_index": "64.8",
+    "prevention_percentage_total": "40.0",
     "prevalence_score": "8.8",
     "people_in_slavery": "12'000",
     "vulnerability_score": "64.8",
@@ -319,7 +323,7 @@
   },
   "Ethiopia": {
     "c_f_labor": 4,
-    "vulnerability_index": "64.5",
+    "prevention_percentage_total": "47.6",
     "prevalence_score": "6.1",
     "people_in_slavery": "614'000",
     "vulnerability_score": "64.5",
@@ -332,7 +336,7 @@
   },
   "Ghana": {
     "c_f_labor": 6,
-    "vulnerability_index": "52.2",
+    "prevention_percentage_total": "44.4",
     "prevalence_score": "4.8",
     "people_in_slavery": "133'000",
     "vulnerability_score": "52.2",
@@ -345,7 +349,7 @@
   },
   "Guatemala": {
     "c_f_labor": 6,
-    "vulnerability_index": "52.1",
+    "prevention_percentage_total": "50.9",
     "prevalence_score": "2.9",
     "people_in_slavery": "47'000",
     "vulnerability_score": "52.1",
@@ -358,7 +362,7 @@
   },
   "Guinea": {
     "c_f_labor": 5,
-    "vulnerability_index": "66.3",
+    "prevention_percentage_total": "24.9",
     "prevalence_score": "7.8",
     "people_in_slavery": "94'000",
     "vulnerability_score": "66.3",
@@ -371,7 +375,7 @@
   },
   "Honduras": {
     "c_f_labor": 3,
-    "vulnerability_index": "55.5",
+    "prevention_percentage_total": "40.7",
     "prevalence_score": "3.4",
     "people_in_slavery": "30'000",
     "vulnerability_score": "55.5",
@@ -384,7 +388,7 @@
   },
   "India": {
     "c_f_labor": 31,
-    "vulnerability_index": "55.5",
+    "prevention_percentage_total": "45.9",
     "prevalence_score": "6.1",
     "people_in_slavery": "7'989'000",
     "vulnerability_score": "55.5",
@@ -397,7 +401,7 @@
   },
   "Indonesia": {
     "c_f_labor": 8,
-    "vulnerability_index": "50.5",
+    "prevention_percentage_total": "47.9",
     "prevalence_score": "4.7",
     "people_in_slavery": "1'220'000",
     "vulnerability_score": "50.5",
@@ -422,7 +426,7 @@
   },
   "Kazakhstan": {
     "c_f_labor": 2,
-    "vulnerability_index": "43.3",
+    "prevention_percentage_total": "33.8",
     "prevalence_score": "4.2",
     "people_in_slavery": "75'000",
     "vulnerability_score": "43.3",
@@ -435,7 +439,7 @@
   },
   "Kenya": {
     "c_f_labor": 9,
-    "vulnerability_index": "70.6",
+    "prevention_percentage_total": "40.1",
     "prevalence_score": "6.9",
     "people_in_slavery": "328'000",
     "vulnerability_score": "70.6",
@@ -448,7 +452,7 @@
   },
   "Kyrgyzstan": {
     "c_f_labor": 2,
-    "vulnerability_index": "42.8",
+    "prevention_percentage_total": "43.3",
     "prevalence_score": "4.1",
     "people_in_slavery": "24'000",
     "vulnerability_score": "42.8",
@@ -461,7 +465,7 @@
   },
   "Lebanon": {
     "c_f_labor": 2,
-    "vulnerability_index": "58.9",
+    "prevention_percentage_total": "28.8",
     "prevalence_score": "1.7",
     "people_in_slavery": "10'000",
     "vulnerability_score": "58.9",
@@ -474,7 +478,7 @@
   },
   "Lesotho": {
     "c_f_labor": 1,
-    "vulnerability_index": "58.3",
+    "prevention_percentage_total": "46.4",
     "prevalence_score": "4.2",
     "people_in_slavery": "9'000",
     "vulnerability_score": "58.3",
@@ -487,7 +491,7 @@
   },
   "Liberia": {
     "c_f_labor": 2,
-    "vulnerability_index": "59.3",
+    "prevention_percentage_total": "30.2",
     "prevalence_score": "7.4",
     "people_in_slavery": "33'000",
     "vulnerability_score": "59.3",
@@ -500,7 +504,7 @@
   },
   "Madagascar": {
     "c_f_labor": 3,
-    "vulnerability_index": "62",
+    "prevention_percentage_total": "28.8",
     "prevalence_score": "7.5",
     "people_in_slavery": "182'000",
     "vulnerability_score": "62.0",
@@ -513,7 +517,7 @@
   },
   "Malawi": {
     "c_f_labor": 3,
-    "vulnerability_index": "63.4",
+    "prevention_percentage_total": "35.5",
     "prevalence_score": "7.5",
     "people_in_slavery": "131'000",
     "vulnerability_score": "63.4",
@@ -526,7 +530,7 @@
   },
   "Malaysia": {
     "c_f_labor": 4,
-    "vulnerability_index": "39.2",
+    "prevention_percentage_total": "36.4",
     "prevalence_score": "6.9",
     "people_in_slavery": "212'000",
     "vulnerability_score": "39.2",
@@ -539,7 +543,7 @@
   },
   "Mali": {
     "c_f_labor": 4,
-    "vulnerability_index": "55.9",
+    "prevention_percentage_total": "29.2",
     "prevalence_score": "3.6",
     "people_in_slavery": "62'000",
     "vulnerability_score": "55.9",
@@ -552,7 +556,7 @@
   },
   "Mauritania": {
     "c_f_labor": 2,
-    "vulnerability_index": "62",
+    "prevention_percentage_total": "19.2",
     "prevalence_score": "21.4",
     "people_in_slavery": "90'000",
     "vulnerability_score": "62.0",
@@ -565,7 +569,7 @@
   },
   "Mexico": {
     "c_f_labor": 14,
-    "vulnerability_index": "57.3",
+    "prevention_percentage_total": "62.7",
     "prevalence_score": "2.7",
     "people_in_slavery": "341'000",
     "vulnerability_score": "57.3",
@@ -578,7 +582,7 @@
   },
   "Mongolia": {
     "c_f_labor": 3,
-    "vulnerability_index": "43.5",
+    "prevention_percentage_total": "35.4",
     "prevalence_score": "12.3",
     "people_in_slavery": "37'000",
     "vulnerability_score": "43.5",
@@ -591,7 +595,7 @@
   },
   "Mozambique": {
     "c_f_labor": 1,
-    "vulnerability_index": "57",
+    "prevention_percentage_total": "44.5",
     "prevalence_score": "5.4",
     "people_in_slavery": "152'000",
     "vulnerability_score": "57.0",
@@ -604,7 +608,7 @@
   },
   "Namibia": {
     "c_f_labor": 1,
-    "vulnerability_index": "48.1",
+    "prevention_percentage_total": "41.0",
     "prevalence_score": "3.3",
     "people_in_slavery": "8'000",
     "vulnerability_score": "48.1",
@@ -617,7 +621,7 @@
   },
   "Nepal": {
     "c_f_labor": 8,
-    "vulnerability_index": "44.1",
+    "prevention_percentage_total": "43.9",
     "prevalence_score": "6.0",
     "people_in_slavery": "171'000",
     "vulnerability_score": "44.1",
@@ -630,7 +634,7 @@
   },
   "Nicaragua": {
     "c_f_labor": 7,
-    "vulnerability_index": "43.9",
+    "prevention_percentage_total": "44.1",
     "prevalence_score": "2.9",
     "people_in_slavery": "18'000",
     "vulnerability_score": "43.9",
@@ -643,7 +647,7 @@
   },
   "Niger": {
     "c_f_labor": 5,
-    "vulnerability_index": "65.6",
+    "prevention_percentage_total": "32.2",
     "prevalence_score": "6.7",
     "people_in_slavery": "133'000",
     "vulnerability_score": "65.6",
@@ -656,7 +660,7 @@
   },
   "Nigeria": {
     "c_f_labor": 9,
-    "vulnerability_index": "74.1",
+    "prevention_percentage_total": "51.6",
     "prevalence_score": "7.7",
     "people_in_slavery": "1'386'000",
     "vulnerability_score": "74.1",
@@ -681,7 +685,7 @@
   },
   "Pakistan": {
     "c_f_labor": 12,
-    "vulnerability_index": "74.1",
+    "prevention_percentage_total": "27.6",
     "prevalence_score": "16.8",
     "people_in_slavery": "3'186'000",
     "vulnerability_score": "74.1",
@@ -694,7 +698,7 @@
   },
   "Panama": {
     "c_f_labor": 2,
-    "vulnerability_index": "36.4",
+    "prevention_percentage_total": "51.1",
     "prevalence_score": "2.1",
     "people_in_slavery": "8'000",
     "vulnerability_score": "36.4",
@@ -707,7 +711,7 @@
   },
   "Paraguay": {
     "c_f_labor": 25,
-    "vulnerability_index": "40.9",
+    "prevention_percentage_total": "47.9",
     "prevalence_score": "1.6",
     "people_in_slavery": "11'000",
     "vulnerability_score": "40.9",
@@ -720,7 +724,7 @@
   },
   "Peru": {
     "c_f_labor": 8,
-    "vulnerability_index": "44.3",
+    "prevention_percentage_total": "60.5",
     "prevalence_score": "2.6",
     "people_in_slavery": "80'000",
     "vulnerability_score": "44.3",
@@ -733,7 +737,7 @@
   },
   "Philippines": {
     "c_f_labor": 13,
-    "vulnerability_index": "60.2",
+    "prevention_percentage_total": "57.0",
     "prevalence_score": "7.7",
     "people_in_slavery": "784'000",
     "vulnerability_score": "60.2",
@@ -746,7 +750,6 @@
   },
   "Russia": {
     "c_f_labor": 4,
-    "vulnerability_index": "51.6",
     "prevalence_score": "5.5",
     "people_in_slavery": "794'000",
     "vulnerability_score": "51.6",
@@ -759,7 +762,7 @@
   },
   "Rwanda": {
     "c_f_labor": 1,
-    "vulnerability_index": "61.7",
+    "prevention_percentage_total": "43.2",
     "prevalence_score": "11.6",
     "people_in_slavery": "134'000",
     "vulnerability_score": "61.7",
@@ -772,7 +775,7 @@
   },
   "Senegal": {
     "c_f_labor": 1,
-    "vulnerability_index": "46.2",
+    "prevention_percentage_total": "45.9",
     "prevalence_score": "2.9",
     "people_in_slavery": "43'000",
     "vulnerability_score": "46.2",
@@ -785,6 +788,7 @@
   },
   "Sierra Leone": {
     "c_f_labor": 6,
+    "prevention_percentage_total": "42.9",
     "prevalence_score": "5.0",
     "people_in_slavery": "36'000",
     "vulnerability_score": "55.2",
@@ -797,7 +801,6 @@
   },
   "South Sudan": {
     "c_f_labor": 2,
-    "vulnerability_index": "94.7",
     "prevalence_score": "20.5",
     "people_in_slavery": "243'000",
     "vulnerability_score": "94.7",
@@ -810,7 +813,7 @@
   },
   "Sudan": {
     "c_f_labor": 1,
-    "vulnerability_index": "87.1",
+    "prevention_percentage_total": "20.0",
     "prevalence_score": "12.0",
     "people_in_slavery": "465'000",
     "vulnerability_score": "87.1",
@@ -823,7 +826,7 @@
   },
   "Suriname": {
     "c_f_labor": 1,
-    "vulnerability_index": "42.1",
+    "prevention_percentage_total": "34.5",
     "prevalence_score": "2.3",
     "people_in_slavery": "1'000",
     "vulnerability_score": "42.1",
@@ -836,7 +839,7 @@
   },
   "Tajikistan": {
     "c_f_labor": 2,
-    "vulnerability_index": "55.8",
+    "prevention_percentage_total": "31.0",
     "prevalence_score": "4.5",
     "people_in_slavery": "39'000",
     "vulnerability_score": "55.8",
@@ -861,7 +864,7 @@
   },
   "Thailand": {
     "c_f_labor": 7,
-    "vulnerability_index": "51.1",
+    "prevention_percentage_total": "59.1",
     "prevalence_score": "8.9",
     "people_in_slavery": "610'000",
     "vulnerability_score": "51.1",
@@ -874,7 +877,7 @@
   },
   "Turkey": {
     "c_f_labor": 10,
-    "vulnerability_index": "51.6",
+    "prevention_percentage_total": "49.2",
     "prevalence_score": "6.5",
     "people_in_slavery": "509'000",
     "vulnerability_score": "51.6",
@@ -887,7 +890,7 @@
   },
   "Turkmenistan": {
     "c_f_labor": 2,
-    "vulnerability_index": "58.1",
+    "prevention_percentage_total": "25.7",
     "prevalence_score": "11.2",
     "people_in_slavery": "62'000",
     "vulnerability_score": "58.1",
@@ -900,7 +903,7 @@
   },
   "Uganda": {
     "c_f_labor": 13,
-    "vulnerability_index": "60.8",
+    "prevention_percentage_total": "39.2",
     "prevalence_score": "7.6",
     "people_in_slavery": "304'000",
     "vulnerability_score": "60.8",
@@ -913,7 +916,7 @@
   },
   "Ukraine": {
     "c_f_labor": 3,
-    "vulnerability_index": "54.4",
+    "prevention_percentage_total": "58.2",
     "prevalence_score": "6.4",
     "people_in_slavery": "286'000",
     "vulnerability_score": "54.4",
@@ -926,7 +929,7 @@
   },
   "Uzbekistan": {
     "c_f_labor": 2,
-    "vulnerability_index": "47.5",
+    "prevention_percentage_total": "34.4",
     "prevalence_score": "5.2",
     "people_in_slavery": "160'000",
     "vulnerability_score": "47.5",
@@ -939,7 +942,6 @@
   },
   "Vietnam": {
     "c_f_labor": 17,
-    "vulnerability_index": "41.5",
     "prevalence_score": "4.5",
     "people_in_slavery": "421'000",
     "vulnerability_score": "41.5",
@@ -952,7 +954,6 @@
   },
   "Yemen": {
     "c_f_labor": 1,
-    "vulnerability_index": "86.4",
     "prevalence_score": "3.1",
     "people_in_slavery": "85'000",
     "vulnerability_score": "86.4",
@@ -965,7 +966,7 @@
   },
   "Zambia": {
     "c_f_labor": 5,
-    "vulnerability_index": "55.2",
+    "prevention_percentage_total": "41.9",
     "prevalence_score": "5.7",
     "people_in_slavery": "92'000",
     "vulnerability_score": "55.2",
