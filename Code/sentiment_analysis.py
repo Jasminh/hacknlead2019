@@ -49,9 +49,9 @@ class AddSentiments:
         # information on countries to be complemented with news
         self.countries = json.load(open(f))
 
-    def get_news(self, f):
+    def get_news(self, news_file):
         """Get news articles from tsv and do sentiment analysis on the articles"""
-        with open(f) as texts:
+        with open(news_file) as texts:
             rows = csv.DictReader(texts, delimiter='\t')
             for row in rows:
                 row = sentiment_analysis(row)
