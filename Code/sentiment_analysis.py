@@ -22,6 +22,7 @@ flags.DEFINE_string('output_json', '/Users/JasminH/hacknlead2019/Data/countries_
 flags.DEFINE_string('country_json', '/Users/JasminH/hacknlead2019/Data/countries.json',
                     '.tsv file to extract data from')
 
+
 def sentiment_analysis(row):
     text = row['parsed_text'].replace('\n', ' ')
     sentences = nltk.tokenize.sent_tokenize(text)
