@@ -22,15 +22,13 @@ b) We then developed sentiments over time (child labor, forced labor, prevention
 
 c) We've implemented the simple and intuitive website where the user can first search for a product and then based on the results scroll in the countries map to further explore and learn about the particular slavery index for that product, country and brand. 
 
-d) In the 2nd phase (depending on our time) we would like to built in more user interaction so that the user can enter his suggestions on missing products, countries and brands. 
+d) In the 2nd phase (depending on our time) we would like to build in more user interaction so that users can enter their suggestions on missing products, countries and brands. That's how we'd like to make users feel more valuable and satisfied. 
 
 Used technologies: 
 
 * MongoDB
 
-* Python (libraries: pandas, numpy, sklearn, matplotlib, plotly, flask) 
-
-* R: ggplot2, caret, shiny
+* Python (libraries: pandas, numpy, sklearn, matplotlib, plotly, flask, pymongo, BeautifulSoup) 
 
 * d3.js (visualisations)
 
@@ -39,3 +37,21 @@ Used technologies:
 * HTML, CSS, JavaScript 
 
 * Heroku cloud (deployment)
+
+## 3. How to install and run the project 
+
+* install JAVA 		https://www.java.com/en/download/help/download_options.xml
+
+* install and run Apache Tomcat	https://tomcat.apache.org/tomcat-8.5-doc/setup.html
+
+* install Maven 	https://maven.apache.org/install.html
+
+* install and run IDE, e.g. Eclipse or IntelliJ Community Edition 	https://www.eclipse.org/downloads/packages/installer	https://www.jetbrains.com/help/idea/installation-guide.html
+
+* install python, versions 3.6.x, 3.7.x OR 3.8.0 (we successfully tested with those)	https://www.python.org/downloads/
+
+* install jupyter notebook 	https://jupyter.org/install
+
+* install MongoDB 			https://docs.mongodb.com/manual/installation/
+
+* install Git 
