@@ -11,7 +11,7 @@ flags.DEFINE_string('text_file', '/Users/JasminH/hacknlead2019/Data/TR_API_files
                     '.tsv file to extract data from')
 
 
-def sentiment_analyis(row):
+def sentiment_analysis(row):
     text = row['parsed_text'].replace('\n', ' ')
     sentences = nltk.tokenize.sent_tokenize(text)
     scores = []
@@ -39,17 +39,19 @@ class AddSentiments:
         with open(f) as texts:
             rows = csv.DictReader(texts, delimiter='\t')
             for row in rows:
-                row = sentiment_analyis(row)
+                row = sentiment_analysis(row)
                 crs = row['countries_long_newversion'].split(',')
                 for country in crs:
                     if 'articles' in self.countries[country]:
-                        self.countries[country]['articles'][row['versionedguid']] = {'text': row['parsed_text'],
+                        self.countries[country]['articles'][row['versionedguid']] = {'date': row['firstcreated'],
+                                                                                     'text': row['parsed_text'],
                                                                                 'polarity': row['polarity'],
                                                                                 'polarity_sentence_scores': row[
                                                                                     'polarity_sentence_scores']}
                     else:
                         self.countries[country]['articles'] = {
-                            row['versionedguid']: {'text': row['parsed_text'], 'polarity': row['polarity'],
+                            row['versionedguid']: {'date': row['firstcreated'], 'text': row['parsed_text'],
+                                                   'polarity': row['polarity'],
                                                    'polarity_sentence_scores': row['polarity_sentence_scores']}}
 
 
