@@ -6,14 +6,25 @@ Module for setting up a query to be used with the Thompson Reuters API
 Author: Tilia Ellendorff
 """
 
+from datetime import datetime, timedelta
+
+
 class QuerySetup(object):
     
-    def __init__(self, authtoken, num_years=1, languages=['en'], geography=None):
+    def __init__(self, authtoken, num_years=1, languages=['en'], geography=None, query_terms=[
+            'human trafficking',
+            'slavery',
+            'child labour',
+            'child labor',
+            'forced labor',
+            'force labour',
+            'debt boundage']):
         '''
         Object for setting up a query.
         :: num_years - past number of years to consider (default is one year)
+        (comment: currently only data for one month is retrievable from API)
         :: languages - list languages to consider (default is English)
-        :: geography - list of countries to consider (by default all countries are included)
+        :: geography - list of countries to consider as country codes (by default all countries are included)
         '''
         
         self.token = authtoken
@@ -26,14 +37,7 @@ class QuerySetup(object):
         self.mediatype_query = 'T'
         
         # terms to be search in fulltext
-        self.query_terms = [
-            'human trafficking',
-            'slavery',
-            'child labour',
-            'child labor',
-            'forced labor',
-            'force labour',
-            'debt boundage']
+        self.query_terms = query_terms
         
         self.text_query = self._format_text_query()
         
@@ -62,7 +66,9 @@ class QuerySetup(object):
             
     def query_url(self):
         #url = f'http://rmb.reuters.com/rmd/rest/json/search?q={search_query}&mediaType=T&token={authToken}&format=json' 
-        url = f'http://rmb.reuters.com/rmd/rest/json/search?q={self.text_query}&mediaType={self.mediatype_query}&dateRange={self.daterange_query}&{self.language_query}&{self.geography_query}&limit=10000&token={self.token}'
+        url = f'http://rmb.reuters.com/rmd/rest/json/search?q={self.text_query}&mediaType={self.mediatype_query}&dateRange={self.daterange_query}&{self.language_query}&{self.geography_query}&limit=1000&token={self.token}'
         return url
+
+
         
         
